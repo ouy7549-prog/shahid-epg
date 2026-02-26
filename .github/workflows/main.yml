@@ -1,0 +1,22 @@
+name: Update EPG
+on:
+  schedule:
+    - cron: '0 0 * * *' # يعمل تلقائياً كل يوم الساعة 12 ليلاً
+  workflow_dispatch: # يسمح لك بتشغيله يدوياً متى شئت
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+      - run: pip install requests
+      - run: python update_epg.py
+      - name: Save changes
+        run: |
+          git config --global user.name "EPG-Bot"
+          git config --global user.email "bot@example.com"
+          git add shahid_final.xml
+          git commit -m "Daily EPG Update" || exit 0
+          git push
