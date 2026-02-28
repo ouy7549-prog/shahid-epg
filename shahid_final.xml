@@ -55640,7 +55640,7 @@
 	<channel id="AlHadath(src09).sa">
 		<display-name>Al hadath</display-name>
 	</channel>
-	<channel id="AlSharqiya(src09).eg">
+	<channel id="Asharq(src09).sa">
 		<display-name>الشرق</display-name>
 	</channel>
 	<channel id="ENMBCIraq(src05).sa">
@@ -55648,6 +55648,9 @@
 	</channel>
 	<channel id="ENMBCMasrDrama(src05).sa">
 		<display-name>MBC Masr Drama</display-name>
+	</channel>
+	<channel id="Majid(src09).sa">
+		<display-name>ماجد</display-name>
 	</channel>
 	<channel id="MBC1(src09).sa">
 		<display-name>MBC 1</display-name>
@@ -56382,237 +56385,393 @@
 		<title lang="">أخبار الحدث</title>
 		<desc lang="">كُن في طليعة متابعي أهم القصص، الأخبار العاجلة، والشؤون الراهنة وكل ما ينبغي معرفته في المنطقة العربية وحول العالم.</desc>
 	</programme>
-	<programme start="20260227030000 +0000" stop="20260227040000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227000000 +0000" stop="20260227000500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227040000 +0000" stop="20260227050000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227000500 +0000" stop="20260227010000 +0000" channel="Asharq(src09).sa">
+		<title lang="">دائرة الشرق</title>
+		<desc lang="">برنامج سياسي حواري يومي يعرض أحداث اليوم ويحللها من جميع الزوايا.</desc>
 	</programme>
-	<programme start="20260227050000 +0000" stop="20260227060000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227010000 +0000" stop="20260227010500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227060000 +0000" stop="20260227070000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Sabah Al Sharqiya</title>
-		<desc lang="">A program that discusses a lot of social, health, and family information, hosts celebrities, and presents many diverse segments covering various topics.</desc>
+	<programme start="20260227010500 +0000" stop="20260227020000 +0000" channel="Asharq(src09).sa">
+		<title lang="">شرق وغرب</title>
+		<desc lang="">يركز البرنامج على إغلاق السوق السعودية وأخبار الشركات في المملكة، ثم الانتقال لفقرة الديجيتال (TOP5) الخاصة، وختاماً يلقي نظرة سريعة على إغلاق السوق المصرية بالإضافة إلى الأخبار الاقتصادية الأوروبية والتحضيرلإفتتاح السوق الأميركية.</desc>
 	</programme>
-	<programme start="20260227070000 +0000" stop="20260227080000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227020000 +0000" stop="20260227020500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227080000 +0000" stop="20260227090000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227020500 +0000" stop="20260227030000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تقرير واشنطن</title>
+		<desc lang="">نظرة من داخل المؤسسات الأميركية ومراكز صنع القرار على قضايا الولايات المتحدة والعالم.</desc>
 	</programme>
-	<programme start="20260227090000 +0000" stop="20260227100000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260227030000 +0000" stop="20260227030500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227100000 +0000" stop="20260227101500 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">نشرة الأخبار</title>
-		<desc lang="" />
+	<programme start="20260227030500 +0000" stop="20260227040000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مدن الشوارع الخلفية</title>
+		<desc lang="">رحلة إلى عالم المدينة الخلفي، لنبحث فيه ونكتشف وجوهه المتوارية، والأسرار، والذكريات والحكايا في طرقاتها وأزقتها الخلفية التي تراكمت عبر السنين المديدة، فشكلت طبقات ملونة صنعت شكل الحياة اليوم.</desc>
 	</programme>
-	<programme start="20260227101500 +0000" stop="20260227110000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227040000 +0000" stop="20260227055000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ذي آسيا تريد</title>
+		<desc lang="">يستعرض البرنامج تأثير آسيا على التجارة العالمية من خلال استكشاف الاتجاهات الاقتصادية، والرؤى السياسية، والتغيرات في الأسواق. ويتضمن تحليلات الخبراء ومقابلات، لفهم القوى التي تشكل مشهد التجارة في آسيا، وتأثيرها العالمي.</desc>
 	</programme>
-	<programme start="20260227110000 +0000" stop="20260227120000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بودكاست قارئ الرافدين</title>
-		<desc lang="" />
+	<programme start="20260227055000 +0000" stop="20260227060000 +0000" channel="Asharq(src09).sa">
+		<title lang="">أبعاد مع أرفد</title>
+		<desc lang="">تابعوا معنا من هنا التفاصيل والشرح المبسط لما يدور حولنا في العالم.</desc>
 	</programme>
-	<programme start="20260227120000 +0000" stop="20260227123000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">قرأن كريم</title>
-		<desc lang="" />
+	<programme start="20260227060000 +0000" stop="20260227070000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227123000 +0000" stop="20260227133000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">فقرة دينية</title>
-		<desc lang="" />
+	<programme start="20260227070000 +0000" stop="20260227080000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227133000 +0000" stop="20260227143000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227080000 +0000" stop="20260227080500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227143000 +0000" stop="20260227153000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260227080500 +0000" stop="20260227090000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مدن الشوارع الخلفية</title>
+		<desc lang="">رحلة إلى عالم المدينة الخلفي، لنبحث فيه ونكتشف وجوهه المتوارية، والأسرار، والذكريات والحكايا في طرقاتها وأزقتها الخلفية التي تراكمت عبر السنين المديدة، فشكلت طبقات ملونة صنعت شكل الحياة اليوم.</desc>
 	</programme>
-	<programme start="20260227153000 +0000" stop="20260227163000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227090000 +0000" stop="20260227100000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227163000 +0000" stop="20260227173000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج وبالوالدين إحسانا</title>
-		<desc lang="" />
+	<programme start="20260227100000 +0000" stop="20260227103000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تحديثات سوق الأسهم</title>
+		<desc lang="">ابقوا على اطلاع على آخر أخبار سوق الأسهم أولاً بأول.</desc>
 	</programme>
-	<programme start="20260227173000 +0000" stop="20260227183000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227103000 +0000" stop="20260227110000 +0000" channel="Asharq(src09).sa">
+		<title lang="">طاقة بلس</title>
+		<desc lang="">ابقو على تواصل مع وثائقي (طاقة بلس).</desc>
 	</programme>
-	<programme start="20260227183000 +0000" stop="20260227193000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">9 Bil Halal</title>
-		<desc lang="">It follows a man who finds himself caught in a whirlwind of families after contemplating marrying nine women. High jinks ensue as personalities and temperaments clash under one roof.</desc>
+	<programme start="20260227110000 +0000" stop="20260227120000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227193000 +0000" stop="20260227200000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227120000 +0000" stop="20260227125000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ويك إند القاهرة</title>
+		<desc lang="">مراجعة أسبوعية لآخر الأخبار من القاهرة.</desc>
 	</programme>
-	<programme start="20260227200000 +0000" stop="20260227204000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج وبالوالدين إحسانا</title>
-		<desc lang="" />
+	<programme start="20260227125000 +0000" stop="20260227130000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حكايا وناس</title>
+		<desc lang="">قصص قصيرة، مدة كل منها حوالي خمس دقائق، يرويها أشخاص عاديون عن تجارب فريدة غيرت حياتهم بشكل جذري.</desc>
 	</programme>
-	<programme start="20260227204000 +0000" stop="20260227213000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227130000 +0000" stop="20260227140000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227213000 +0000" stop="20260227223000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227140000 +0000" stop="20260227143000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260227223000 +0000" stop="20260227233000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Sabah Al Sharqiya</title>
-		<desc lang="">A program that discusses a lot of social, health, and family information, hosts celebrities, and presents many diverse segments covering various topics.</desc>
+	<programme start="20260227143000 +0000" stop="20260227150000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأسواق الأمريكية</title>
+		<desc lang="">برنامج يستكشف العالم الحيوي للأسواق الأمريكية، مسلطًا الضوء على الاتجاهات والفرص والرؤى المتعلقة بالأعمال والتجارة وثقافة المستهلك في الولايات المتحدة.</desc>
 	</programme>
-	<programme start="20260227233000 +0000" stop="20260228003000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بودكاست قارئ الرافدين</title>
-		<desc lang="" />
+	<programme start="20260227150000 +0000" stop="20260227155000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228003000 +0000" stop="20260228010000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Elet Al Malek</title>
-		<desc lang="">A Damascus trader marries to get rich and leaves his poor family. He struggles to achieve his goals due to security concerns and unexpected events. The events address “forced payments” on merchants and highlight slum lifes social inconsistencies. The story climaxes on the night of the regimes end when the security system fails and prisons open, freeing inmates.</desc>
+	<programme start="20260227155000 +0000" stop="20260227160000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الشرق سينما</title>
+		<desc lang="">يغوص البرنامج عميقاً في عالم السينما، حيث يتضمن مراجعة للأفلام التي حازت على استحسان النقاد من المنطقة وحول العالم، بالإضافة إلى مقابلات خاصة مع صانعي الأفلام ورواد هذا المجال.</desc>
 	</programme>
-	<programme start="20260228010000 +0000" stop="20260228020000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260227160000 +0000" stop="20260227165000 +0000" channel="Asharq(src09).sa">
+		<title lang="">جلسة المساء</title>
+		<desc lang="">يلخص البرنامج أحداث اليوم ويتطرق لفرص الاستثمار وتحدياته، مع التركيز على نجاحات رواد الأعمال الشباب والشركات الناشئة.</desc>
 	</programme>
-	<programme start="20260228020000 +0000" stop="20260228030000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بات لايف</title>
-		<desc lang="" />
+	<programme start="20260227165000 +0000" stop="20260227170000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حكايا وناس</title>
+		<desc lang="">قصص قصيرة، مدة كل منها حوالي خمس دقائق، يرويها أشخاص عاديون عن تجارب فريدة غيرت حياتهم بشكل جذري.</desc>
 	</programme>
-	<programme start="20260228030000 +0000" stop="20260228040000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227170000 +0000" stop="20260227170500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228040000 +0000" stop="20260228050000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227170500 +0000" stop="20260227180000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حديث مع صبا</title>
+		<desc lang="">من قلب عالم المال والأعمال، تجري صبا عودة لقاءات مع أهم صانعي القرار والثروات في الشرق الأوسط والعالم. تسألهم فيها عن مسيرتهم المهنية، ونقاط التحول في حياتهم، وطريقتهم للتغلب على الصعاب، وعن استراتيجياتهم السرية لتحقيق أهدافهم.</desc>
 	</programme>
-	<programme start="20260228050000 +0000" stop="20260228060000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227180000 +0000" stop="20260227185000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228060000 +0000" stop="20260228070000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Sabah Al Sharqiya</title>
-		<desc lang="">A program that discusses a lot of social, health, and family information, hosts celebrities, and presents many diverse segments covering various topics.</desc>
+	<programme start="20260227185000 +0000" stop="20260227190000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الشرق سينما</title>
+		<desc lang="">يغوص البرنامج عميقاً في عالم السينما، حيث يتضمن مراجعة للأفلام التي حازت على استحسان النقاد من المنطقة وحول العالم، بالإضافة إلى مقابلات خاصة مع صانعي الأفلام ورواد هذا المجال.</desc>
 	</programme>
-	<programme start="20260228070000 +0000" stop="20260228080000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227190000 +0000" stop="20260227190500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228080000 +0000" stop="20260228090000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260227190500 +0000" stop="20260227195000 +0000" channel="Asharq(src09).sa">
+		<title lang="">على الحدود</title>
+		<desc lang="">يرصد البرنامج كل اسبوع، أبرز القضايا التي حصلت في إحدى الدول المجاورة لبلدان الشرق الأوسط، وكيف أثرت على البلدان العربية.</desc>
 	</programme>
-	<programme start="20260228090000 +0000" stop="20260228100000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260227195000 +0000" stop="20260227200000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الشرق سينما</title>
+		<desc lang="">يغوص البرنامج عميقاً في عالم السينما، حيث يتضمن مراجعة للأفلام التي حازت على استحسان النقاد من المنطقة وحول العالم، بالإضافة إلى مقابلات خاصة مع صانعي الأفلام ورواد هذا المجال.</desc>
 	</programme>
-	<programme start="20260228100000 +0000" stop="20260228101500 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">نشرة الأخبار</title>
-		<desc lang="" />
+	<programme start="20260227200000 +0000" stop="20260227210000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ألوان الشرق</title>
+		<desc lang="">برنامج إخباري يلقي الضوء على أبرز المواضيع السياسية والاقتصادية والرياضية والطب والتكنولوجيا.</desc>
 	</programme>
-	<programme start="20260228101500 +0000" stop="20260228110000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260227210000 +0000" stop="20260227215000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الارتداد شرقاً</title>
+		<desc lang="">برنامج تحليلي مخصص لرصد وتفسير الأحداث العالمية المهمة التي تحمل دلالات وأبعاداً قد تؤثر بشكل مباشر أو غير مباشر على المنطقة العربية.</desc>
 	</programme>
-	<programme start="20260228110000 +0000" stop="20260228120000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بودكاست قارئ الرافدين</title>
-		<desc lang="" />
+	<programme start="20260227215000 +0000" stop="20260227220000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حكايا وناس</title>
+		<desc lang="">قصص قصيرة، مدة كل منها حوالي خمس دقائق، يرويها أشخاص عاديون عن تجارب فريدة غيرت حياتهم بشكل جذري.</desc>
 	</programme>
-	<programme start="20260228120000 +0000" stop="20260228123000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">قرأن كريم</title>
-		<desc lang="" />
+	<programme start="20260227220000 +0000" stop="20260227230000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228123000 +0000" stop="20260228133000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">فقرة دينية</title>
-		<desc lang="" />
+	<programme start="20260227230000 +0000" stop="20260227230500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228133000 +0000" stop="20260228143000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260227230500 +0000" stop="20260228000000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ضيفي مع معتز الدمرداش</title>
+		<desc lang="">برنامج حواري يستضيف فيه معتز الدمرداش مشاهير من الوطن العربي، ويسمع منهم قصص نجاحهم والتحديات والصعوبات التي واجهتهم خلال مسيرتهم.</desc>
 	</programme>
-	<programme start="20260228143000 +0000" stop="20260228153000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260228000000 +0000" stop="20260228003000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228153000 +0000" stop="20260228163000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260228003000 +0000" stop="20260228010000 +0000" channel="Asharq(src09).sa">
+		<title lang="">طاقة بلس</title>
+		<desc lang="">ابقو على تواصل مع وثائقي (طاقة بلس).</desc>
 	</programme>
-	<programme start="20260228163000 +0000" stop="20260228173000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج وبالوالدين إحسانا</title>
-		<desc lang="" />
+	<programme start="20260228010000 +0000" stop="20260228010500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228173000 +0000" stop="20260228183000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260228010500 +0000" stop="20260228020000 +0000" channel="Asharq(src09).sa">
+		<title lang="">على الحدود</title>
+		<desc lang="">يرصد البرنامج كل اسبوع، أبرز القضايا التي حصلت في إحدى الدول المجاورة لبلدان الشرق الأوسط، وكيف أثرت على البلدان العربية.</desc>
 	</programme>
-	<programme start="20260228183000 +0000" stop="20260228193000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">9 Bil Halal</title>
-		<desc lang="">It follows a man who finds himself caught in a whirlwind of families after contemplating marrying nine women. High jinks ensue as personalities and temperaments clash under one roof.</desc>
+	<programme start="20260228020000 +0000" stop="20260228020500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228193000 +0000" stop="20260228200000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260228020500 +0000" stop="20260228030000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حديث مع صبا</title>
+		<desc lang="">من قلب عالم المال والأعمال، تجري صبا عودة لقاءات مع أهم صانعي القرار والثروات في الشرق الأوسط والعالم. تسألهم فيها عن مسيرتهم المهنية، ونقاط التحول في حياتهم، وطريقتهم للتغلب على الصعاب، وعن استراتيجياتهم السرية لتحقيق أهدافهم.</desc>
 	</programme>
-	<programme start="20260228200000 +0000" stop="20260228204000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج وبالوالدين إحسانا</title>
-		<desc lang="" />
+	<programme start="20260228030000 +0000" stop="20260228030500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228204000 +0000" stop="20260228213000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260228030500 +0000" stop="20260228040000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مدن الشوارع الخلفية</title>
+		<desc lang="">رحلة إلى عالم المدينة الخلفي، لنبحث فيه ونكتشف وجوهه المتوارية، والأسرار، والذكريات والحكايا في طرقاتها وأزقتها الخلفية التي تراكمت عبر السنين المديدة، فشكلت طبقات ملونة صنعت شكل الحياة اليوم.</desc>
 	</programme>
-	<programme start="20260228213000 +0000" stop="20260228223000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260228040000 +0000" stop="20260228040500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260228223000 +0000" stop="20260228233000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Sabah Al Sharqiya</title>
-		<desc lang="">A program that discusses a lot of social, health, and family information, hosts celebrities, and presents many diverse segments covering various topics.</desc>
+	<programme start="20260228040500 +0000" stop="20260228050000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تقرير واشنطن</title>
+		<desc lang="">نظرة من داخل المؤسسات الأميركية ومراكز صنع القرار على قضايا الولايات المتحدة والعالم.</desc>
 	</programme>
-	<programme start="20260228233000 +0000" stop="20260301003000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بودكاست قارئ الرافدين</title>
-		<desc lang="" />
+	<programme start="20260228050000 +0000" stop="20260228060000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260301003000 +0000" stop="20260301010000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Elet Al Malek</title>
-		<desc lang="">A Damascus trader marries to get rich and leaves his poor family. He struggles to achieve his goals due to security concerns and unexpected events. The events address “forced payments” on merchants and highlight slum lifes social inconsistencies. The story climaxes on the night of the regimes end when the security system fails and prisons open, freeing inmates.</desc>
+	<programme start="20260228060000 +0000" stop="20260228060500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260301010000 +0000" stop="20260301020000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج على نياتكم ترزقون</title>
-		<desc lang="" />
+	<programme start="20260228060500 +0000" stop="20260228065500 +0000" channel="Asharq(src09).sa">
+		<title lang="">اقتصاد الشرق</title>
+		<desc lang="">مراجعة أسبوعية تضم آخر أخبار الاقتصاد الإقليمي والدولي، أسواق الأوراق المالية، السياحة، والتكنولوجيا.</desc>
 	</programme>
-	<programme start="20260301020000 +0000" stop="20260301030000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">برنامج بات لايف</title>
-		<desc lang="" />
+	<programme start="20260228065500 +0000" stop="20260228070000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حكايا وناس</title>
+		<desc lang="">قصص قصيرة، مدة كل منها حوالي خمس دقائق، يرويها أشخاص عاديون عن تجارب فريدة غيرت حياتهم بشكل جذري.</desc>
 	</programme>
-	<programme start="20260301030000 +0000" stop="20260301040000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Abjad Halwas 2</title>
-		<desc lang="">Following Khader and Abu Jumas miraculous success in the previous semester, Khader decides to take on an even bigger challenge by continuing his studies in "literacy" classes. He finds himself caught in a comedic whirlwind of interactions with his elderly classmates, whose stories are stranger than fiction, and with teachers trying to control a class teeming with mischief.</desc>
+	<programme start="20260228070000 +0000" stop="20260228080000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260301040000 +0000" stop="20260301050000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Badal Talef</title>
-		<desc lang="">Inside her clinic, a doctor offers more than medicine; her space becomes a haven for patients’ stories. This human drama unveils deep psychological wounds and untold social secrets, blending the bitterness of pain with the power of hope.</desc>
+	<programme start="20260228080000 +0000" stop="20260228080500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
 	</programme>
-	<programme start="20260301050000 +0000" stop="20260301060000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Al Amma</title>
-		<desc lang="">Suleiman believes five years of calm have buried his terrifying past, only to realize the present is a continuation of his nightmare. The true hell never left; it lurks in the shadows of memory, waiting for the lethal moment to return and destroy everything.</desc>
+	<programme start="20260228080500 +0000" stop="20260228090000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مدن الشوارع الخلفية</title>
+		<desc lang="">رحلة إلى عالم المدينة الخلفي، لنبحث فيه ونكتشف وجوهه المتوارية، والأسرار، والذكريات والحكايا في طرقاتها وأزقتها الخلفية التي تراكمت عبر السنين المديدة، فشكلت طبقات ملونة صنعت شكل الحياة اليوم.</desc>
 	</programme>
-	<programme start="20260301060000 +0000" stop="20260301070000 +0000" channel="AlSharqiya(src09).eg">
-		<title lang="">Sabah Al Sharqiya</title>
-		<desc lang="">A program that discusses a lot of social, health, and family information, hosts celebrities, and presents many diverse segments covering various topics.</desc>
+	<programme start="20260228090000 +0000" stop="20260228100000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228100000 +0000" stop="20260228103000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228103000 +0000" stop="20260228110000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ذا ديفيد روبنشتاين شو</title>
+		<desc lang="">يتحدث الممول والمتطوع ديفيد روبنشتاين مع قادة بعض أكبر الشركات الأمريكية - في هذه المقابلة التي تهدف إلى الإجابة على السؤال الذي يتمحور حول الأسباب التي تجعل القائد عظيما.</desc>
+	</programme>
+	<programme start="20260228110000 +0000" stop="20260228110500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228110500 +0000" stop="20260228115500 +0000" channel="Asharq(src09).sa">
+		<title lang="">اقتصاد الشرق</title>
+		<desc lang="">مراجعة أسبوعية تضم آخر أخبار الاقتصاد الإقليمي والدولي، أسواق الأوراق المالية، السياحة، والتكنولوجيا.</desc>
+	</programme>
+	<programme start="20260228115500 +0000" stop="20260228120000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حكايا وناس</title>
+		<desc lang="">قصص قصيرة، مدة كل منها حوالي خمس دقائق، يرويها أشخاص عاديون عن تجارب فريدة غيرت حياتهم بشكل جذري.</desc>
+	</programme>
+	<programme start="20260228120000 +0000" stop="20260228123000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228123000 +0000" stop="20260228130000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تيك بلس</title>
+		<desc lang="">ابقوا على تواصل مع تيك بلس.</desc>
+	</programme>
+	<programme start="20260228130000 +0000" stop="20260228140000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228140000 +0000" stop="20260228140500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228140500 +0000" stop="20260228150000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ضيفي مع معتز الدمرداش</title>
+		<desc lang="">برنامج حواري يستضيف فيه معتز الدمرداش مشاهير من الوطن العربي، ويسمع منهم قصص نجاحهم والتحديات والصعوبات التي واجهتهم خلال مسيرتهم.</desc>
+	</programme>
+	<programme start="20260228150000 +0000" stop="20260228153000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228153000 +0000" stop="20260228160000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تقرير آسيا</title>
+		<desc lang="">تابعوا أهم وآخر أخبار الاقتصادات والأسواق الآسيوية وتطوراتها.</desc>
+	</programme>
+	<programme start="20260228160000 +0000" stop="20260228163000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228163000 +0000" stop="20260228165000 +0000" channel="Asharq(src09).sa">
+		<title lang="">تيك بلس</title>
+		<desc lang="">ابقوا على تواصل مع تيك بلس.</desc>
+	</programme>
+	<programme start="20260228165000 +0000" stop="20260228170000 +0000" channel="Asharq(src09).sa">
+		<title lang="">للنجاح قصة:الحلقة 19</title>
+		<desc lang="">يستعرض البرنامج قصص نجاح الشباب العرب من أصحاب المشاريع الصغيرة والمتوسطة.</desc>
+	</programme>
+	<programme start="20260228170000 +0000" stop="20260228170500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228170500 +0000" stop="20260228180000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حديث مع صبا</title>
+		<desc lang="">من قلب عالم المال والأعمال، تجري صبا عودة لقاءات مع أهم صانعي القرار والثروات في الشرق الأوسط والعالم. تسألهم فيها عن مسيرتهم المهنية، ونقاط التحول في حياتهم، وطريقتهم للتغلب على الصعاب، وعن استراتيجياتهم السرية لتحقيق أهدافهم.</desc>
+	</programme>
+	<programme start="20260228180000 +0000" stop="20260228190000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228190000 +0000" stop="20260228190500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228190500 +0000" stop="20260228195000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مع وضد</title>
+		<desc lang="">برنامج أسبوعي يقدم فرصة لطرفي نقيض، أن يقدما رأيهما بتوازن للجمهور، لمنح الجمهور فرصة للاطلاع على الأبعاد المختلفة لقضية تهمهم بشكل كبير.</desc>
+	</programme>
+	<programme start="20260228195000 +0000" stop="20260228200000 +0000" channel="Asharq(src09).sa">
+		<title lang="">أبعاد مع أرفد</title>
+		<desc lang="">تابعوا معنا من هنا التفاصيل والشرح المبسط لما يدور حولنا في العالم.</desc>
+	</programme>
+	<programme start="20260228200000 +0000" stop="20260228210000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ألوان الشرق</title>
+		<desc lang="">برنامج إخباري يلقي الضوء على أبرز المواضيع السياسية والاقتصادية والرياضية والطب والتكنولوجيا.</desc>
+	</programme>
+	<programme start="20260228210000 +0000" stop="20260228210500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228210500 +0000" stop="20260228220000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ويك إند القاهرة</title>
+		<desc lang="">مراجعة أسبوعية لآخر الأخبار من القاهرة.</desc>
+	</programme>
+	<programme start="20260228220000 +0000" stop="20260228230000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228230000 +0000" stop="20260228230500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260228230500 +0000" stop="20260301000000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ضيفي مع معتز الدمرداش</title>
+		<desc lang="">برنامج حواري يستضيف فيه معتز الدمرداش مشاهير من الوطن العربي، ويسمع منهم قصص نجاحهم والتحديات والصعوبات التي واجهتهم خلال مسيرتهم.</desc>
+	</programme>
+	<programme start="20260301000000 +0000" stop="20260301003000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301003000 +0000" stop="20260301010000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ذا ديفيد روبنشتاين شو</title>
+		<desc lang="">يتحدث الممول والمتطوع ديفيد روبنشتاين مع قادة بعض أكبر الشركات الأمريكية - في هذه المقابلة التي تهدف إلى الإجابة على السؤال الذي يتمحور حول الأسباب التي تجعل القائد عظيما.</desc>
+	</programme>
+	<programme start="20260301010000 +0000" stop="20260301010500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301010500 +0000" stop="20260301020000 +0000" channel="Asharq(src09).sa">
+		<title lang="">مع وضد</title>
+		<desc lang="">برنامج أسبوعي يقدم فرصة لطرفي نقيض، أن يقدما رأيهما بتوازن للجمهور، لمنح الجمهور فرصة للاطلاع على الأبعاد المختلفة لقضية تهمهم بشكل كبير.</desc>
+	</programme>
+	<programme start="20260301020000 +0000" stop="20260301020500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301020500 +0000" stop="20260301030000 +0000" channel="Asharq(src09).sa">
+		<title lang="">حديث مع صبا</title>
+		<desc lang="">من قلب عالم المال والأعمال، تجري صبا عودة لقاءات مع أهم صانعي القرار والثروات في الشرق الأوسط والعالم. تسألهم فيها عن مسيرتهم المهنية، ونقاط التحول في حياتهم، وطريقتهم للتغلب على الصعاب، وعن استراتيجياتهم السرية لتحقيق أهدافهم.</desc>
+	</programme>
+	<programme start="20260301030000 +0000" stop="20260301030500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301030500 +0000" stop="20260301040000 +0000" channel="Asharq(src09).sa">
+		<title lang="">اقتصاد الشرق</title>
+		<desc lang="">مراجعة أسبوعية تضم آخر أخبار الاقتصاد الإقليمي والدولي، أسواق الأوراق المالية، السياحة، والتكنولوجيا.</desc>
+	</programme>
+	<programme start="20260301040000 +0000" stop="20260301040500 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301040500 +0000" stop="20260301050000 +0000" channel="Asharq(src09).sa">
+		<title lang="">ويك إند القاهرة</title>
+		<desc lang="">مراجعة أسبوعية لآخر الأخبار من القاهرة.</desc>
+	</programme>
+	<programme start="20260301050000 +0000" stop="20260301060000 +0000" channel="Asharq(src09).sa">
+		<title lang="">الأخبار</title>
+		<desc lang="">تغطية مباشرة للأخبار المحلية والعالمية مع التركيز على التطورات في العالم، وصولاً إلى عرض دقيق وتحليلات معمقة تهم المشاهدين.</desc>
+	</programme>
+	<programme start="20260301060000 +0000" stop="20260301070000 +0000" channel="Asharq(src09).sa">
+		<title lang="">صباح الشرق</title>
+		<desc lang="">ابقوا على تواصل مع برنامج (صباح الشرق).</desc>
 	</programme>
 	<programme start="20260227000000 +0000" stop="20260227001500 +0000" channel="ENMBCIraq(src05).sa">
 		<title lang="">Hamdiyya</title>
@@ -57469,6 +57628,1238 @@
 	<programme start="20260302000000 +0000" stop="20260302235959 +0000" channel="ENMBCMasrDrama(src05).sa">
 		<title lang="">TV guide is not available</title>
 		<desc lang="" />
+	</programme>
+	<programme start="20260227000000 +0000" stop="20260227001000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227001000 +0000" stop="20260227002000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227002000 +0000" stop="20260227003000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227003000 +0000" stop="20260227004000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260227004000 +0000" stop="20260227004500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227004500 +0000" stop="20260227005000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227005000 +0000" stop="20260227005500 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227005500 +0000" stop="20260227010000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227010000 +0000" stop="20260227011500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260227011500 +0000" stop="20260227011900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227011900 +0000" stop="20260227012300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227012300 +0000" stop="20260227013000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227013000 +0000" stop="20260227014000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227014000 +0000" stop="20260227015000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227015000 +0000" stop="20260227020000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227020000 +0000" stop="20260227020700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227020700 +0000" stop="20260227021500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227021500 +0000" stop="20260227022200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227022200 +0000" stop="20260227023000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227023000 +0000" stop="20260227024000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227024000 +0000" stop="20260227025000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227025000 +0000" stop="20260227030000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227030000 +0000" stop="20260227031500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260227031500 +0000" stop="20260227031900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227031900 +0000" stop="20260227032300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227032300 +0000" stop="20260227033000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227033000 +0000" stop="20260227040000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260227040000 +0000" stop="20260227041500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260227041500 +0000" stop="20260227042500 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260227042500 +0000" stop="20260227043000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227043000 +0000" stop="20260227044500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260227044500 +0000" stop="20260227045200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227045200 +0000" stop="20260227050000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227050000 +0000" stop="20260227051000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227051000 +0000" stop="20260227052000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227052000 +0000" stop="20260227053000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227053000 +0000" stop="20260227054500 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260227054500 +0000" stop="20260227060000 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260227060000 +0000" stop="20260227061500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227061500 +0000" stop="20260227063000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227063000 +0000" stop="20260227064000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227064000 +0000" stop="20260227065000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227065000 +0000" stop="20260227070000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227070000 +0000" stop="20260227071500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227071500 +0000" stop="20260227073000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227073000 +0000" stop="20260227074500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227074500 +0000" stop="20260227080000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227080000 +0000" stop="20260227081000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260227081000 +0000" stop="20260227081500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227081500 +0000" stop="20260227082000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227082000 +0000" stop="20260227082500 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227082500 +0000" stop="20260227083000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227083000 +0000" stop="20260227083700 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227083700 +0000" stop="20260227084500 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227084500 +0000" stop="20260227090000 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260227090000 +0000" stop="20260227090700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227090700 +0000" stop="20260227091500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227091500 +0000" stop="20260227092200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227092200 +0000" stop="20260227093000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227093000 +0000" stop="20260227094000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227094000 +0000" stop="20260227095000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227095000 +0000" stop="20260227100000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227100000 +0000" stop="20260227101500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260227101500 +0000" stop="20260227101900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227101900 +0000" stop="20260227102300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227102300 +0000" stop="20260227103000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227103000 +0000" stop="20260227110000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260227110000 +0000" stop="20260227111500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260227111500 +0000" stop="20260227113000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227113000 +0000" stop="20260227114500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227114500 +0000" stop="20260227120000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227120000 +0000" stop="20260227121500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227121500 +0000" stop="20260227123000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227123000 +0000" stop="20260227124000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260227124000 +0000" stop="20260227124500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227124500 +0000" stop="20260227125200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227125200 +0000" stop="20260227130000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227130000 +0000" stop="20260227130700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227130700 +0000" stop="20260227131500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227131500 +0000" stop="20260227132200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227132200 +0000" stop="20260227133000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227133000 +0000" stop="20260227134000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227134000 +0000" stop="20260227135000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227135000 +0000" stop="20260227140000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227140000 +0000" stop="20260227141500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260227141500 +0000" stop="20260227141900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227141900 +0000" stop="20260227142300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227142300 +0000" stop="20260227143000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227143000 +0000" stop="20260227144500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260227144500 +0000" stop="20260227145200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227145200 +0000" stop="20260227150000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227150000 +0000" stop="20260227151000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227151000 +0000" stop="20260227152000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227152000 +0000" stop="20260227153000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227153000 +0000" stop="20260227154500 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260227154500 +0000" stop="20260227160000 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260227160000 +0000" stop="20260227161500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227161500 +0000" stop="20260227163000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227163000 +0000" stop="20260227164000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260227164000 +0000" stop="20260227164500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227164500 +0000" stop="20260227165000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227165000 +0000" stop="20260227165500 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227165500 +0000" stop="20260227170000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260227170000 +0000" stop="20260227171500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227171500 +0000" stop="20260227173000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227173000 +0000" stop="20260227174500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227174500 +0000" stop="20260227180000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227180000 +0000" stop="20260227181500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260227181500 +0000" stop="20260227183000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227183000 +0000" stop="20260227190000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260227190000 +0000" stop="20260227190700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227190700 +0000" stop="20260227191500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227191500 +0000" stop="20260227192200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227192200 +0000" stop="20260227193000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260227193000 +0000" stop="20260227194000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227194000 +0000" stop="20260227195000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227195000 +0000" stop="20260227200000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260227200000 +0000" stop="20260227201500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260227201500 +0000" stop="20260227203000 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260227203000 +0000" stop="20260227203400 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227203400 +0000" stop="20260227203800 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227203800 +0000" stop="20260227204500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227204500 +0000" stop="20260227205200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227205200 +0000" stop="20260227210000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260227210000 +0000" stop="20260227211500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260227211500 +0000" stop="20260227213000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260227213000 +0000" stop="20260227214000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227214000 +0000" stop="20260227215000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227215000 +0000" stop="20260227220000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260227220000 +0000" stop="20260227221500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227221500 +0000" stop="20260227223000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260227223000 +0000" stop="20260227224500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227224500 +0000" stop="20260227230000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260227230000 +0000" stop="20260227231500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227231500 +0000" stop="20260227233000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260227233000 +0000" stop="20260228000000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260228000000 +0000" stop="20260228001000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228001000 +0000" stop="20260228002000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228002000 +0000" stop="20260228003000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228003000 +0000" stop="20260228004000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260228004000 +0000" stop="20260228004500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228004500 +0000" stop="20260228005000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228005000 +0000" stop="20260228005500 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228005500 +0000" stop="20260228010000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228010000 +0000" stop="20260228011500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260228011500 +0000" stop="20260228011900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228011900 +0000" stop="20260228012300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228012300 +0000" stop="20260228013000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228013000 +0000" stop="20260228014000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228014000 +0000" stop="20260228015000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228015000 +0000" stop="20260228020000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228020000 +0000" stop="20260228020700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228020700 +0000" stop="20260228021500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228021500 +0000" stop="20260228022200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228022200 +0000" stop="20260228023000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228023000 +0000" stop="20260228024000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228024000 +0000" stop="20260228025000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228025000 +0000" stop="20260228030000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228030000 +0000" stop="20260228031500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260228031500 +0000" stop="20260228031900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228031900 +0000" stop="20260228032300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228032300 +0000" stop="20260228033000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228033000 +0000" stop="20260228040000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260228040000 +0000" stop="20260228041500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260228041500 +0000" stop="20260228042500 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260228042500 +0000" stop="20260228043000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228043000 +0000" stop="20260228044500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260228044500 +0000" stop="20260228045200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228045200 +0000" stop="20260228050000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228050000 +0000" stop="20260228051000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228051000 +0000" stop="20260228052000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228052000 +0000" stop="20260228053000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228053000 +0000" stop="20260228054500 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260228054500 +0000" stop="20260228060000 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260228060000 +0000" stop="20260228061500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228061500 +0000" stop="20260228063000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228063000 +0000" stop="20260228064000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228064000 +0000" stop="20260228065000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228065000 +0000" stop="20260228070000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228070000 +0000" stop="20260228071500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228071500 +0000" stop="20260228073000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228073000 +0000" stop="20260228074500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228074500 +0000" stop="20260228080000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228080000 +0000" stop="20260228081000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260228081000 +0000" stop="20260228081500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228081500 +0000" stop="20260228082000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228082000 +0000" stop="20260228082500 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228082500 +0000" stop="20260228083000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228083000 +0000" stop="20260228083700 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228083700 +0000" stop="20260228084500 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228084500 +0000" stop="20260228090000 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260228090000 +0000" stop="20260228090700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228090700 +0000" stop="20260228091500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228091500 +0000" stop="20260228092200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228092200 +0000" stop="20260228093000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228093000 +0000" stop="20260228094000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228094000 +0000" stop="20260228095000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228095000 +0000" stop="20260228100000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228100000 +0000" stop="20260228101500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260228101500 +0000" stop="20260228101900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228101900 +0000" stop="20260228102300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228102300 +0000" stop="20260228103000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228103000 +0000" stop="20260228110000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260228110000 +0000" stop="20260228111500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260228111500 +0000" stop="20260228113000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228113000 +0000" stop="20260228114500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228114500 +0000" stop="20260228120000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228120000 +0000" stop="20260228121500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228121500 +0000" stop="20260228123000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228123000 +0000" stop="20260228124000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260228124000 +0000" stop="20260228124500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228124500 +0000" stop="20260228125200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228125200 +0000" stop="20260228130000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228130000 +0000" stop="20260228130700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228130700 +0000" stop="20260228131500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228131500 +0000" stop="20260228132200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228132200 +0000" stop="20260228133000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228133000 +0000" stop="20260228134000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228134000 +0000" stop="20260228135000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228135000 +0000" stop="20260228140000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228140000 +0000" stop="20260228141500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260228141500 +0000" stop="20260228141900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228141900 +0000" stop="20260228142300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228142300 +0000" stop="20260228143000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228143000 +0000" stop="20260228144500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260228144500 +0000" stop="20260228145200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228145200 +0000" stop="20260228150000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228150000 +0000" stop="20260228151000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228151000 +0000" stop="20260228152000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228152000 +0000" stop="20260228153000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228153000 +0000" stop="20260228154500 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260228154500 +0000" stop="20260228160000 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260228160000 +0000" stop="20260228161500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228161500 +0000" stop="20260228163000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228163000 +0000" stop="20260228164000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260228164000 +0000" stop="20260228164500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228164500 +0000" stop="20260228170000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260228170000 +0000" stop="20260228171500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228171500 +0000" stop="20260228173000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228173000 +0000" stop="20260228174500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228174500 +0000" stop="20260228180000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228180000 +0000" stop="20260228181500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260228181500 +0000" stop="20260228183000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228183000 +0000" stop="20260228190000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260228190000 +0000" stop="20260228190700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228190700 +0000" stop="20260228191500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228191500 +0000" stop="20260228192200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228192200 +0000" stop="20260228193000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260228193000 +0000" stop="20260228194000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228194000 +0000" stop="20260228195000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228195000 +0000" stop="20260228200000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260228200000 +0000" stop="20260228201500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260228201500 +0000" stop="20260228203000 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260228203000 +0000" stop="20260228203400 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228203400 +0000" stop="20260228203800 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228203800 +0000" stop="20260228204500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228204500 +0000" stop="20260228205200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228205200 +0000" stop="20260228210000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260228210000 +0000" stop="20260228211500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260228211500 +0000" stop="20260228213000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260228213000 +0000" stop="20260228214000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228214000 +0000" stop="20260228215000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228215000 +0000" stop="20260228220000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260228220000 +0000" stop="20260228221500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228221500 +0000" stop="20260228223000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260228223000 +0000" stop="20260228224500 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228224500 +0000" stop="20260228230000 +0000" channel="Majid(src09).sa">
+		<title lang="">كابتن بينغو</title>
+		<desc lang="">بقيادة كابتن بينغو، تعمل المجموعة على مواجهة تغير المناخ والكوارث الطبيعية والجفاف وإزالة الغابات وتلوث المحيطات.</desc>
+	</programme>
+	<programme start="20260228230000 +0000" stop="20260228231500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228231500 +0000" stop="20260228233000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات الدبان المرحان بندق وبُرعُم</title>
+		<desc lang="">يصبح (لوغر فيك) مرشداً سياحياً! ثم يلتقي بفتاة تحتاج إلى مساعدته في العثور على النمر الذي كان رفيق طفولتها. ينضم (بندق وبُرعُم) إلى فريق البحث عن النمور وتبدأ مغامرتهم المضحكة والرائعة.</desc>
+	</programme>
+	<programme start="20260228233000 +0000" stop="20260301000000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260301000000 +0000" stop="20260301001000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301001000 +0000" stop="20260301002000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301002000 +0000" stop="20260301003000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301003000 +0000" stop="20260301004000 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260301004000 +0000" stop="20260301004500 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301004500 +0000" stop="20260301010000 +0000" channel="Majid(src09).sa">
+		<title lang="">حكايات أمونة</title>
+		<desc lang="">تتألق أمونة في سلسلة قصيرة تعيد تقديم شخصيات أسطورية مثل سندريلا ومولان، مضيفة روحها الفريدة إلى كل دور أيقوني.</desc>
+	</programme>
+	<programme start="20260301010000 +0000" stop="20260301011500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260301011500 +0000" stop="20260301011900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301011900 +0000" stop="20260301012300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301012300 +0000" stop="20260301013000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301013000 +0000" stop="20260301014000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301014000 +0000" stop="20260301015000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301015000 +0000" stop="20260301020000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301020000 +0000" stop="20260301020700 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260301020700 +0000" stop="20260301021500 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260301021500 +0000" stop="20260301022200 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260301022200 +0000" stop="20260301023000 +0000" channel="Majid(src09).sa">
+		<title lang="">بيبي ريكي</title>
+		<desc lang="">تنبض ألعاب بيبي ريكي بالحياة في غرف الأطفال، فتستكشف العالم وتتعلم من خلال كل مغامرة.</desc>
+	</programme>
+	<programme start="20260301023000 +0000" stop="20260301024000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301024000 +0000" stop="20260301025000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301025000 +0000" stop="20260301030000 +0000" channel="Majid(src09).sa">
+		<title lang="">سكورد زيبرا</title>
+		<desc lang="">تعيش بولي مع أصدقائها بسعادة في غابة جزيرة بعيدة، حيث كل يوم مليء بالمغامرات والجدالات العرضية.</desc>
+	</programme>
+	<programme start="20260301030000 +0000" stop="20260301031500 +0000" channel="Majid(src09).sa">
+		<title lang="">جايغانوسوراس</title>
+		<desc lang="">انضم إلى أربعة من أصدقاء الديناصورات الصغار وهم يقضون كل يوم يلعبون مع بعضهم البعض ويستمتعون كثيراً وهم يستكشفون سرّ (جايغانوسوراس) أكبر وأضخم ديناصور على الإطلاق.</desc>
+	</programme>
+	<programme start="20260301031500 +0000" stop="20260301031900 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301031900 +0000" stop="20260301032300 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301032300 +0000" stop="20260301033000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301033000 +0000" stop="20260301040000 +0000" channel="Majid(src09).sa">
+		<title lang="">زينة ونحول</title>
+		<desc lang="">تعيش النحلة (زينة) في حقل مع (نحول) وأصدقاء آخرين، وهي دائمة البحث عن السعادة خارج قوانين مستعمرة النحل الصارمة لتنطلق في مغامرات حماسية دائماً ما تنتهي بمتاعب جمّة.</desc>
+	</programme>
+	<programme start="20260301040000 +0000" stop="20260301041500 +0000" channel="Majid(src09).sa">
+		<title lang="">عالم ماجد</title>
+		<desc lang="">ابقوا على تواصل مع عالم ماجد.</desc>
+	</programme>
+	<programme start="20260301041500 +0000" stop="20260301042500 +0000" channel="Majid(src09).sa">
+		<title lang="">طرائف جحا</title>
+		<desc lang="">جحا، قروي حكيم ومحبوب، يحل المشاكل بروح الدعابة والمغامرة. ويواجه مع حماره تحديات مضحكة، ويعلم القيم الأخلاقية والدروس العالمية من خلال الكوميديا ​​في كل حلقة.</desc>
+	</programme>
+	<programme start="20260301042500 +0000" stop="20260301043000 +0000" channel="Majid(src09).sa">
+		<title lang="">فطين</title>
+		<desc lang="">فطين صبي في السابعة من عُمره وعاشق حقيقي للعلوم. دائم البحث عن إجابات للأسئلة التي تدور في ذهنه، لكنه ليس مملاً ولا طالباً مجتهداً، بل واسع الخيال وموهوب وحياته الاجتماعية غنية ومُضحك أيضاً.</desc>
+	</programme>
+	<programme start="20260301043000 +0000" stop="20260301044500 +0000" channel="Majid(src09).sa">
+		<title lang="">أبطال المعرفة</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي أبطال المعرفة.</desc>
+	</programme>
+	<programme start="20260301044500 +0000" stop="20260301045200 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260301045200 +0000" stop="20260301050000 +0000" channel="Majid(src09).sa">
+		<title lang="">قرية الحروف</title>
+		<desc lang="">ترقبوا مشاهدة مسلسل الأطفال التعليمي قرية الحروف.</desc>
+	</programme>
+	<programme start="20260301050000 +0000" stop="20260301051000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301051000 +0000" stop="20260301052000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301052000 +0000" stop="20260301053000 +0000" channel="Majid(src09).sa">
+		<title lang="">أورانج موو كاو</title>
+		<desc lang="">مسلسل رسوم متحركة عن عائلة الأبقار البرتقالية وأصدقائها. بو وزو يدخلون في جميع مواقف مختلفة كل مرة. تقدم الحلقات بدقة قرارات الفضيلة والقدوة للأطفال. حيث يتعلم الأطفال من خلالها كيف يكونوا مهذبين ومتعاطفين مع الآخرين.</desc>
+	</programme>
+	<programme start="20260301053000 +0000" stop="20260301054500 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260301054500 +0000" stop="20260301060000 +0000" channel="Majid(src09).sa">
+		<title lang="">السنافر</title>
+		<desc lang="">انضموا إلى المرح مع الشخصيات المحبّبة إلى قلوبكم، السنافر أصحاب البشرة الزرقاء... ينطلقون كل مرة في مغامرات جريئة ممتعة، وبذات الوقت يحاولون تجنب القبض عليهم من قبل الساحر الشرير شرشبيل.</desc>
+	</programme>
+	<programme start="20260301060000 +0000" stop="20260301061500 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
+	</programme>
+	<programme start="20260301061500 +0000" stop="20260301063000 +0000" channel="Majid(src09).sa">
+		<title lang="">مغامرات سام سام الكونية</title>
+		<desc lang="">يستكشف سامسام البالغ من العمر ست سنوات المجرة مع أصدقائه، ويواجه الأشرار الطيبين، ويتعلم مغامرات النمو.</desc>
 	</programme>
 	<programme start="20260227000500 +0000" stop="20260227003500 +0000" channel="MBC1(src09).sa">
 		<title lang="">جاك العلم:الحلقة 9</title>
