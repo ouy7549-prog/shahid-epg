@@ -59,10 +59,11 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/d369be2a1373b221dafc3f3eb
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f3f48cbbb9fa36/index.mpd
-#EXTINF:-1 tvg-id="NatGeoAbuDhabi(src05).ae" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="", National Geographic Abu Dhabi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=3fdd8dd5726d51bea4ccc7358dc018f6:32fab75ba9b398946e8c3afa01917a8f
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.license_key={"3fdd8dd5726d51bea4ccc7358dc018f6":"32fab75ba9b398946e8c3afa01917a8f"}
+#KODIPROP:inputstream.adaptive.stream_headers=User-Agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#KODIPROP:inputstream.adaptive.stream_headers=Referer=https://starzplay.com/
+#EXTINF:-1 tvg-id="NatGeoAbuDhabi(src05).ae" tvg-logo="https://i.imgur.com/fNA00VF.png",National Geographic Abu Dhabi
 https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/national_geo/national_geo_dash/index.mpd
 #EXTINF:-1 tvg-id="SpaceToon(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="", Spacetoon
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
@@ -86,3 +87,4 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9
 #EXTINF:-1 tvg-id="SkyNewsArabia(src09).sa" tvg-logo="https://starzplay-img-prod-ssl.akamaized.net/prd-peg-data/default/images/logos/live/v2/skynewsarabia-active.png" group-title="أخبار", Sky News عربية
 
 https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
+
