@@ -7,14 +7,13 @@ import os
 def update_combined_epg():
     # 1. Settings
     playco_ch_id = "720335400128"
-    
     now = datetime.now(timezone.utc)
     
-    # Shahid Times
+    # Times for Shahid
     from_date = (now - timedelta(days=1)).strftime("%Y-%m-%dT00:00:00.000Z")
     to_date = (now + timedelta(days=2)).strftime("%Y-%m-%dT23:59:59.000Z")
     
-    # Playco Times (Unix Timestamp)
+    # Times for Playco (Unix Timestamp)
     start_ts = int(now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp())
     end_ts = start_ts + (24 * 3600)
 
@@ -27,7 +26,7 @@ def update_combined_epg():
     headers = {'User-Agent': 'Mozilla/5.0'}
     root = ET.Element("tv", {"generator-info-name": "Combined EPG"})
 
-    # --- Section 1: Shahid ---
+    # --- Shahid Section ---
     try:
         print("Processing Shahid...")
         response = requests.get(shahid_url, headers=headers, timeout=20)
@@ -35,7 +34,7 @@ def update_combined_epg():
         for channel in items:
             ch_id = str(channel.get('channelId'))
             ch_node = ET.SubElement(root, "channel", id=ch_id)
-            ET.SubElement(ch_node, "display-name").text = f"Shahid {ch_id}"
+            ET.SubElement(ch_node, "display-name").text = "Shahid " + ch_id
             for p in channel.get('items', []):
                 start = p['from'].split('.')[0].replace('-', '').replace(':', '').replace('T', '') + " +0000"
                 stop = p['to'].split('.')[0].replace('-', '').replace(':', '').replace('T', '') + " +0000"
@@ -43,15 +42,15 @@ def update_combined_epg():
                 ET.SubElement(prog, "title", lang="ar").text = p.get('title', 'N/A')
                 ET.SubElement(prog, "desc", lang="ar").text = p.get('description', '')
     except Exception as e:
-        print(f"Shahid Error: {e}")
+        print("Shahid Error: " + str(e))
 
-    # --- Section 2: Playco ---
+    # --- Playco Section ---
     try:
-        print(f"Processing Playco ID: {playco_ch_id}...")
+        print("Processing Playco ID: " + playco_ch_id)
         response = requests.get(playco_url, headers=headers, timeout=20)
         p_data = response.json()
         ch_node = ET.SubElement(root, "channel", id=playco_ch_id)
-        ET.SubElement(ch_node, "display-name").text = f"Playco {playco_ch_id}"
+        ET.SubElement(ch_node, "display-name").text = "Playco " + playco_ch_id
         events = p_data.get('data', {}).get('events', [])
         for event in events:
             s_t = datetime.fromtimestamp(int(event['tsStart']), tz=timezone.utc).strftime('%Y%m%d%H%M%S +0000')
@@ -60,9 +59,9 @@ def update_combined_epg():
             ET.SubElement(prog, "title", lang="ar").text = event.get('title', 'N/A')
             ET.SubElement(prog, "desc", lang="ar").text = event.get('description', '')
     except Exception as e:
-        print(f"Playco Error: {e}")
+        print("Playco Error: " + str(e))
 
-    # --- Section 3: m3u4u ---
+    # --- m3u4u Section ---
     try:
         print("Processing m3u4u...")
         response = requests.get(m3u4u_url, headers=headers, timeout=30)
@@ -70,16 +69,16 @@ def update_combined_epg():
         for c in m_xml.findall("channel"): root.append(c)
         for p in m_xml.findall("programme"): root.append(p)
     except Exception as e:
-        print(f"m3u4u Error: {e}")
+        print("m3u4u Error: " + str(e))
 
     # --- Final Save ---
     try:
         tree = ET.ElementTree(root)
-        ET.indent(tree, space="\t", level=0)
+        # تمت إزالة ET.indent لضمان التوافق مع الإصدارات القديمة
         tree.write("combined_final.xml", encoding="utf-8", xml_declaration=True)
         print("Success! File saved as: combined_final.xml")
     except Exception as e:
-        print(f"Save Error: {e}")
+        print("Save Error: " + str(e))
 
 if __name__ == "__main__":
     update_combined_epg()
