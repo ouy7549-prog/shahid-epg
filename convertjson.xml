@@ -1,4 +1,23 @@
-    <contentOwnership>admn</contentOwnership>
+<?xml version="1.0" encoding="UTF-8" ?>
+<root>
+  <status>true</status>
+  <runtime>280ms</runtime>
+  <total>107</total>
+  <data>
+    <adsCountryRights/>
+    <assetTypes>AVOD</assetTypes>
+    <category>featured</category>
+    <config>
+      <enforceAds>false</enforceAds>
+      <isRewind>false</isRewind>
+      <streamUrls>
+        <catchup>
+          <tsStart>start</tsStart>
+          <tsEnd>end</tsEnd>
+        </catchup>
+      </streamUrls>
+    </config>
+<contentOwnership>admn</contentOwnership>
     <description>تعرض وثائقيات علمية مدهشة ومدبلجة بالعربية، تنقل أسرار الطبيعة والعلوم بأسلوب مشوّق عبر التلفزيون والمنصات الرقمية.</description>
     <events>
       <description>Seven-part global television event that takes viewers around the world on the arduous journeys millions of animals undertake to ensure the survival of their species.</description>
@@ -1041,3 +1060,13 @@
     <config>
       <dPlay>token</dPlay>
     </config>
+    <order>10</order>
+    <paid>false</paid>
+    <parentalControl>7</parentalControl>
+    <slug>kmusiclive</slug>
+    <subscription>starz</subscription>
+    <subscriptionPerCountry/>
+    <title>كيه ميوزيك - مباشر</title>
+    <type>linear</type>
+  </data>
+</root>
