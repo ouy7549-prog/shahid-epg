@@ -30,6 +30,11 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-max/b628d2bbaee0431a17859
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-action/8ea6ca1108d03e03da5e61372354f5c8/index.mpd
+#EXTINF:-1 tvg-id="MBCPluseLife(src09).sa" tvg-logo="https://starzplay-img-prod-ssl.akamaized.net/prd-peg-data/default/images/logos/live/v2/mbcpluselife-active.png" group-title="", MBC+ eLife HD
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=867c8d7670eab5e7aa10571830ad3d8c:030cf68626950b12145bc7147d6a9bda
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://ev-fast-mpd.starzplayarabia.com/live/eds/MBC_Plus_eLife_HD/DASH/MBC_Plus_eLife_HD.mpd
 #EXTINF:-1 tvg-id="387294" tvg-logo="https://shahid.mbc.net/mediaObject/27b098dd-07ae-4264-9ac2-47da7d720740?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Iraq
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
 #EXTINF:-1 tvg-id="409387" tvg-logo="https://shahid.mbc.net/mediaObject/799fb041-289c-4709-b009-bca666425ec8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Bollywood
