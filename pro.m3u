@@ -65,7 +65,10 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/d369be2a1373b221dafc3f3eb
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f3f48cbbb9fa36/index.mpd
 #EXTINF:-1 tvg-id="NatGeoAbuDhabi(src05).ae" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="",National Geographic Abu Dhabi
-http://lion20.top:8080/229815636887/192402289369/399455
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/NatGeo_AbuDhabi_HD/DASH/NatGeo_AbuDhabi_HD.mpd
 #EXTINF:-1 tvg-id="ONE(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ON_logo.png/250px-ON_logo.png" group-title="",ON E
 https://fastly.live.brightcove.com/1843587421941170322/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1ODc0MjE5NDExNzAzMjIifQ.r6YCffy47zkO1b8ng0w4Cxe8QVIsrat2RiuQrGYemyk/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="CBC(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/1280px-CBC_TV.png" group-title="", CBC
