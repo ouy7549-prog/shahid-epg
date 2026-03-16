@@ -1,0 +1,111 @@
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/ouy7549-prog/shahid-epg/refs/heads/main/shahid_final.xml"
+#EXTINF:-1 tvg-id="387238" tvg-logo="https://shahid.mbc.net/mediaObject/cee00d24-d0ee-4382-ac72-b2de5dee0331?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 1
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+#EXTINF:-1 tvg-id="400917" tvg-logo="https://shahid.mbc.net/mediaObject/39923955-895b-4f40-9374-874b1e314566?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 2
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-2/51db9d7fa48a27d051f1eecb68069151/index.mpd
+#EXTINF:-1 tvg-id="409385" tvg-logo="https://shahid.mbc.net/mediaObject/6bcdb5e5-d974-4feb-97dc-1bad851b0c1d?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 3
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
+#EXTINF:-1 tvg-id="400919" tvg-logo="https://shahid.mbc.net/mediaObject/d280bcb0-2135-4919-af1a-f1c8c5fb99e3?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 4
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
+#EXTINF:-1 tvg-id="387251" tvg-logo="https://shahid.mbc.net/mediaObject/7ccc7980-2151-441f-b862-494961bcf2d9?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-drama/2c28a458e2f3253e678b07ac7d13fe71/index.m3u8
+#EXTINF:-1 tvg-id="387296" tvg-logo="https://shahid.mbc.net/mediaObject/dd63048e-0b3b-48a2-b55c-77619b4d5cf6?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Drama Plus
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-plus-drama/e37251ec2aac8f6c98f75cd0fa37cd28/index.m3u8
+#EXTINF:-1 tvg-id="387290" tvg-logo="https://shahid.mbc.net/mediaObject/40868a75-2b2c-47af-baf7-9167fce35a1d?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Masr
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr/956eac069c78a35d47245db6cdbb1575/index.m3u8
+#EXTINF:-1 tvg-id="387293" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/MBC_Masr_2_Logo.svg/960px-MBC_Masr_2_Logo.svg.png" group-title="MBC", MBC Masr 2
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-2/754931856515075b0aabf0e583495c68/index.m3u8
+#EXTINF:-1 tvg-id="49923122575716" tvg-logo="https://shahid.mbc.net/mediaObject/82976f5e-20dd-4e81-8b4d-ee9bca41ca45?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Masr Drama
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-masr-drama/567b703c19ede6598222de81b0e4508b/index.m3u8
+#EXTINF:-1 tvg-id="400924" tvg-logo="https://shahid.mbc.net/mediaObject/dc80d00a-4769-48dc-a952-9e59d2d9d3b5?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Max
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-max/b628d2bbaee0431a17859963edf2975f/index.mpd
+#EXTINF:-1 tvg-id="400921" tvg-logo="https://shahid.mbc.net/mediaObject/6e9d3a09-d2e8-46ed-a3bc-a1506b6950f7?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Action
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-action/8ea6ca1108d03e03da5e61372354f5c8/index.mpd
+#EXTINF:-1 tvg-id="MBCPluseLife(src09).sa" tvg-logo="https://starzplay-img-prod-ssl.akamaized.net/prd-peg-data/default/images/logos/live/v2/mbcpluselife-active.png" group-title="", MBC+ eLife HD
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=867c8d7670eab5e7aa10571830ad3d8c:030cf68626950b12145bc7147d6a9bda
+https://ev-fast-mpd.starzplayarabia.com/live/eds/MBC_Plus_eLife_HD/DASH/MBC_Plus_eLife_HD.mpd
+#EXTINF:-1 tvg-id="387294" tvg-logo="https://shahid.mbc.net/mediaObject/27b098dd-07ae-4264-9ac2-47da7d720740?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Iraq
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-iraq/e38c44b1b43474e1c39cb5b90203691e/index.m3u8
+#EXTINF:-1 tvg-id="409387" tvg-logo="https://shahid.mbc.net/mediaObject/799fb041-289c-4709-b009-bca666425ec8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC Bollywood
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a209255dd2496903764/index.m3u8
+#EXTINF:-1 tvg-id="SaudiQuran(src09).sa" tvg-logo="https://aloula.faulio.com/storage/mediagallery/da/6c/fullhd_7eaf7e165c4cad5b3a45eff65d2011e18be5d670.png" group-title="قنوات السعودية", القرآن الكريم
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-quran-tv/5ade268066b7ec605d753d973d37e0e5/index.mpd
+#EXTINF:-1 tvg-id="SaudiSunnah(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/a2180922-6de9-45c4-ae40-0411a5c9666f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السنة النبوية
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sunna-tv/4c4285a859e7a6e9772b0c82a8095dc9/index.mpd
+#EXTINF:-1 tvg-id="Saudi1(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/35f57bfa-b83c-4727-8fa0-2c66c0051d4f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السعودية
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/8f1e3b810d2ec5affd6fb29f9cbd59c1/index.mpd
+#EXTINF:-1 tvg-id="SBC(src09).sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/SBC_TV.png" group-title="قنوات السعودية", SBC
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=08c932d6ccf444aca2fe88eb96fbb452:4bc6518061883387519414546e8d7998
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/d369be2a1373b221dafc3f3eb025f2a9/index.mpd
+#EXTINF:-1 tvg-id="946945" tvg-logo="https://shahid.mbc.net/mediaObject/2828a599-b458-433a-ad8e-0c26114c7cf4?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", ذكريات
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f3f48cbbb9fa36/index.mpd
+#EXTINF:-1 tvg-id="NatGeoAbuDhabi(src05).ae" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="",National Geographic Abu Dhabi
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
+https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/NatGeo_AbuDhabi_HD/DASH/NatGeo_AbuDhabi_HD.mpd
+#EXTINF:-1 tvg-id="ONE(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ON_logo.png/250px-ON_logo.png" group-title="",ON E
+https://fastly.live.brightcove.com/1843587421941170322/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1ODc0MjE5NDExNzAzMjIifQ.r6YCffy47zkO1b8ng0w4Cxe8QVIsrat2RiuQrGYemyk/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="CBC(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/1280px-CBC_TV.png" group-title="", CBC
+https://fastly.live.brightcove.com/1843521364865282260/eu-central-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXltc3VjLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjEzNjQ4NjUyODIyNjAifQ.0dAr9XfheySFlNSKyHmeaasEMRIr-eZhJXZkoB1nzu4/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="AlhayatTV(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/AlHayah_Drama.png/330px-AlHayah_Drama.png" group-title="", AL HAYAT Drama
+https://fastly.live.brightcove.com/1843521635140662966/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjE2MzUxNDA2NjI5NjYifQ.3f6Ek99wdZf_GSaWnd7hHgbJOSa2zbyqt2cUoxyTHzk/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="DMC(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Dmc_TV_Logo.png" group-title="", DMC
+https://fastly.live.brightcove.com/1843587511277700484/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1ODc1MTEyNzc3MDA0ODQifQ.5wPFktewEw9I-uizJ-Kk8GJpxh540V8eWuARmlEnLLM/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="SpaceToon(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="", Spacetoon
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
+#EXTINF:-1 tvg-id="Majid(src09).sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="", ماجد
+#KODIPROP:inputstream=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=01ad62cecdb4194d08b227682d7b1935:d534d7f207baae2e51a279107049f544
+https://admn-fast-mpd-session-tk.starzplayarabia.com/out/v1/admn_tv/majid/majid_dash/index.mpd
+#EXTINF:-1 tvg-id="995495" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="MBC", الثقافية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
+#EXTINF:-1 tvg-id="387286" tvg-logo="https://shahid.mbc.net/mediaObject/20060ee9-6a34-4090-a7e6-935906ec31af?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Alarabiya
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8
+#EXTINF:-1 tvg-id="387288" tvg-logo="https://shahid.mbc.net/mediaObject/c5bad731-85af-493b-aa4f-f2aa01576376?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Al hadath
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a20637d9f8fd/index.m3u8
+#EXTINF:-1 tvg-id="AlJazeeraArabic.uk" tvg-logo="https://upload.wikimedia.org/wikipedia/ar/thumb/7/71/Aljazeera.svg/960px-Aljazeera.svg.png" group-title="أخبار", Al Jazeera Arabic
+https://live-hls-web-aja-gcp.thehlive.com/AJA/index.m3u8
+#EXTINF:-1 tvg-id="Asharq(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/e2517a24-9ecb-4d64-a547-640c876b326c?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="أخبار", الشرق
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8
+#EXTINF:-1 tvg-id="AlEkhbariya(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/80341c5b-6c68-406d-b8a8-673f1481c4e8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", الإخبارية
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+#EXTINF:-1 tvg-id="SkyNewsArabia(src09).sa" tvg-logo="https://starzplay-img-prod-ssl.akamaized.net/prd-peg-data/default/images/logos/live/v2/skynewsarabia-active.png" group-title="أخبار", Sky News عربية
+https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
