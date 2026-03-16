@@ -1,11 +1,8 @@
 #EXTM3U x-tvg-url="https://raw.githubusercontent.com/ouy7549-prog/shahid-epg/refs/heads/main/shahid_final.xml"
 #EXTINF:-1 tvg-id="387238" tvg-logo="https://shahid.mbc.net/mediaObject/cee00d24-d0ee-4382-ac72-b2de5dee0331?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
-#KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key={"e3ce77324a3d4fa2a913b26cc1976052":"17774f82a3b9e33ea7a149596acbb20f"}
 #EXTINF:-1 tvg-id="400917" tvg-logo="https://shahid.mbc.net/mediaObject/39923955-895b-4f40-9374-874b1e314566?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC",MBC 2
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-2/51db9d7fa48a27d051f1eecb68069151/index.mpd
-#EXTINF:-1 tvg-id="409385" tvg-logo="https://shahid.mbc.net/mediaObject/6bcdb5e5-d974-4feb-97dc-1bad851b0c1d?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 3
+https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-2/51db9d7fa48a27d051f1eecb68069151/index.mpd?ck=eyJlM2NlNzczMjRhM2Q0ZmEyYTkxM2IyNmNjMTk3NjA1MiI6IjE3Nzc0ZjgyYTNiOWUzM2VhN2ExNDk1OTZhY2JiMjBmIn0%3D&image=aHR0cHM6Ly9zaGFoaWQubWJjLm5ldC9tZWRpYU9iamVjdC8zOTkyMzk1NS04OTViLTRmNDAtOTM3NC04NzRiMWUzMTQ1NjY%2FaGVpZ2h0PWF1dG8md2lkdGg9Mjg4JmNyb3BwaW5nUG9pbnQ9JnZlcnNpb249MSZ0eXBlPXBuZw%3D%3D&title=MBC+2#EXTINF:-1 tvg-id="409385" tvg-logo="https://shahid.mbc.net/mediaObject/6bcdb5e5-d974-4feb-97dc-1bad851b0c1d?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 3
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
 #EXTINF:-1 tvg-id="400919" tvg-logo="https://shahid.mbc.net/mediaObject/d280bcb0-2135-4919-af1a-f1c8c5fb99e3?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 4
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-4/24f134f1cd63db9346439e96b86ca6ed/index.m3u8
