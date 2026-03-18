@@ -64,7 +64,7 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/d369be2a1373b221dafc3f3eb
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f3f48cbbb9fa36/index.mpd
-#EXTINF:-1 tvg-id="NatGeoAbuDhabi(src05).ae" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="",National Geographic Abu Dhabi
+#EXTINF:-1 tvg-id="NatGeoAD(src09).sa" tvg-logo="https://i.imgur.com/fNA00VF.png" group-title="",National Geographic Abu Dhabi
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
