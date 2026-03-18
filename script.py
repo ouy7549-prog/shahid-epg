@@ -1,51 +1,53 @@
-import re
 import time
+import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-def get_live_link_with_selenium():
+def get_link_from_network():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
-    # إعدادات المتصفح الخفي (بدون واجهة رسومية)
     chrome_options = Options()
     chrome_options.add_argument("--headless")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
+    
+    # تفعيل مراقبة سجلات الشبكة
+    chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
 
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     try:
         driver.get(url)
-        print("جاري الانتظار لتحميل الصفحة وتوليد الرابط...")
-        time.sleep(10) # ننتظر 10 ثواني لضمان تشغيل الجافا سكريبت
+        print("انتظار تحميل البث واستخراج الرابط من الشبكة...")
+        time.sleep(15) # زيادة وقت الانتظار لضمان تشغيل المشغل
         
-        # الحصول على كامل كود الصفحة بعد التعديل بواسطة جافا سكريبت
-        page_source = driver.page_source
+        logs = driver.get_log("performance")
         
-        # البحث عن الرابط
-        match = re.search(r'https://dmi-live-a\.akamaized\.net/[^"\']+\.mpd\?hdntl=[^"\']+', page_source)
-        
-        if match:
-            return match.group(0)
+        for entry in logs:
+            log = json.loads(entry["message"])["message"]
+            if "Network.requestWillBeSent" in log["method"]:
+                request_url = log["params"]["request"]["url"]
+                # البحث عن رابط Akamai الذي ينتهي بـ .mpd وفيه التوكن
+                if "akamaized.net" in request_url and ".mpd" in request_url and "hdntl=" in request_url:
+                    return request_url
         return None
     except Exception as e:
-        print(f"حدث خطأ: {e}")
+        print(f"خطأ: {e}")
         return None
     finally:
         driver.quit()
 
-# تنفيذ الجلب
-final_link = get_live_link_with_selenium()
+# التشغيل والحفظ
+found_url = get_link_from_network()
 
 with open("dubai_one.m3u", "w") as f:
     f.write("#EXTM3U\n")
     f.write("#EXTINF:-1, Dubai One\n")
-    if final_link:
-        f.write(final_link)
-        print(f"نجاح! تم العثور على الرابط: {final_link}")
+    if found_url:
+        f.write(found_url)
+        print(f"تم بنجاح! الرابط المستخرج: {found_url}")
     else:
-        f.write("# الرابط غير متوفر حالياً، سيتم التحديث لاحقاً")
-        print("فشل العثور على الرابط حتى باستخدام المتصفح.")
+        f.write("# فشل استخراج الرابط من سجلات الشبكة")
+        print("للأسف لم يتم العثور على الرابط في حركة الشبكة.")
