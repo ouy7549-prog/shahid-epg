@@ -36,3 +36,10 @@ jobs:
             git commit -m "Update IPTV Link: $(date)"
             git push origin main
           fi
+          # أضف هذا الجزء في نهاية الملف تحت خطوة Run script
+      - name: Upload Debug Screenshot
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshot
+          path: debug.png
+          if-no-files-found: ignore
