@@ -1,0 +1,35 @@
+name: Update EPG Daily
+
+on:
+  schedule:
+    # يعمل تلقائياً كل يوم الساعة 12 صباحاً بتوقيت جرينتش
+    - cron: '0 0 * * *'
+  workflow_dispatch: # يسمح لك بتشغيل السكريبت يدوياً للتجربة
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'
+
+    - name: Install dependencies
+      run: |
+        pip install requests
+
+    - name: Run EPG Script
+      run: python main.py
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "GitHub Action"
+        git config --global user.email "action@github.com"
+        git add epg_auto_updated.xml
+        git commit -m "Update EPG Data [$(date)]" || exit 0
+        git push
