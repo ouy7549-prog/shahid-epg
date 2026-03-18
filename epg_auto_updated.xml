@@ -1,6 +1,2 @@
 <?xml version='1.0' encoding='utf-8'?>
-<tv generator-info-name="Gemini-StarzPlay-Final-Fix">
-  <channel id="PET_CLUB_TV">
-    <display-name>Pet Club TV</display-name>
-  </channel>
-</tv>
+<tv generator-info-name="StarzPlay-Comprehensive-Fix" />
