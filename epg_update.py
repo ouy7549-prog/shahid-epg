@@ -3,9 +3,9 @@ import re
 
 # روابط المصادر الموثوقة من مشروع iptv-org
 sources = [
-    "https://iptv-org.github.io/epg/guides/sa.xml",
-    "https://iptv-org.github.io/epg/guides/eg.xml",
-    "https://iptv-org.github.io/epg/guides/ae.xml"
+    "https://iptv-epg.org/files/epg-sa.xml",
+    "https://iptv-epg.org/files/epg-eg.xml",
+    "https://iptv-epg.org/files/epg-ae.xml"
 ]
 
 def generate_epg():
