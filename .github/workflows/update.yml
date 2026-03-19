@@ -1,14 +1,13 @@
-name: Update IPTV Link
+name: Auto Update EPG
+
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 0 * * *' # سيعمل تلقائياً كل يوم الساعة 12 منتصف الليل
+  workflow_dispatch: # زر لتشغيله يدوياً متى شئت
 
 jobs:
-  build:
+  update-epg:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -16,30 +15,18 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.x'
+          python-version: '3.9'
 
-      - name: Install dependencies
-        run: |
-          pip install selenium webdriver-manager
-          
-      - name: Run script
-        run: python script.py
+      - name: Install Dependencies
+        run: pip install requests
+
+      - name: Run Update Script
+        run: python update_epg.py
 
       - name: Commit and Push Changes
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add dubai_one.m3u
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Update IPTV Link: $(date)"
-            git push origin main
-          fi
-          # أضف هذا الجزء في نهاية الملف تحت خطوة Run script
-      - name: Upload Debug Screenshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshot
-          path: debug.png
-          if-no-files-found: ignore
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add epg.xml
+          git commit -m "تحديث تلقائي لدليل البرامج: $(date)" || exit 0
+          git push
