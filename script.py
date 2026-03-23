@@ -7,7 +7,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 def get_exact_link_github():
-    url = "https://www.elahmad.com/tv/dubaione.htm"
+    url = "https://www.elahmad.com/tv/live/shahid_shaka.php?id=dubaione"
     
     chrome_options = Options()
     # ⚠️ ضروري جداً لعمل المتصفح على سيرفرات GitHub بدون واجهة رسومية
