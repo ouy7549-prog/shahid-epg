@@ -1,8 +1,8 @@
-name: Update IPTV Link
+name: Update Dubai One Link
 on:
   schedule:
-    - cron: '0 */3 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # يعمل كل 6 ساعات
+  workflow_dispatch: # للتشغيل اليدوي بزر Run
 
 jobs:
   build:
@@ -11,16 +11,16 @@ jobs:
       contents: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.x'
 
       - name: Install dependencies
         run: |
-          pip install selenium webdriver-manager requests
+          pip install selenium webdriver-manager
 
       - name: Run script
         run: python script.py
@@ -33,6 +33,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "Update IPTV Link: $(date)"
+            git commit -m "Auto-update Dubai One Link"
             git push origin main
           fi
