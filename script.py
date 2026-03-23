@@ -6,7 +6,7 @@ from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
 def get_link_final():
-    url = "https://www.dubaiplus.net/epg?channel=702096936070"
+    url = "https://www.elahmad.com/tv/dubaione.htm"
     
     chrome_options = Options()
     chrome_options.add_argument("--headless")
