@@ -1,41 +1,24 @@
 import requests
-import re
 
-def get_direct_link():
-    # الرابط الذي وجدته أنت لا يتطلب تسجيل دخول
-    url = "https://www.elahmad.com/tv/dubaione.htm"
-    
-    headers = {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        'Referer': 'https://www.elahmad.com/'
-    }
+def get_link_from_worker():
+    # ⚠️ ضع هنا رابط الـ Worker الذي نسخته من Cloudflare
+    worker_url = "https://winter-rain-e223.ouy7549.workers.dev/" 
     
     try:
-        response = requests.get(url, headers=headers, timeout=15)
-        # البحث باستخدام التعبيرات النمطية (Regex) عن رابط الـ mpd أو m3u8
-        match = re.search(r'(https?://[^\s"]+\.(?:mpd|m3u8)[^\s"]*)', response.text)
-        
-        if match:
-            return match.group(0)
-            
-        # محاولة أخرى للبحث عن akamaized تحديداً
-        match_akamai = re.search(r'(https?://[^\s"]*akamaized\.net[^\s"]*)', response.text)
-        if match_akamai:
-            return match_akamai.group(0)
-            
-        return None
+        response = requests.get(worker_url, timeout=15)
+        if response.status_code == 200:
+            return response.text.strip()
     except Exception as e:
-        print(f"حدث خطأ أثناء الطلب: {e}")
-        return None
+        print(f"Error fetching from worker: {e}")
+    return None
 
-found_link = get_direct_link()
+found_link = get_link_from_worker()
 
-# حفظ الملف
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
         f.write(found_link)
-        print(f"✅ تم القنص بنجاح: {found_link[:50]}...")
+        print("✅ تم صيد الرابط بنجاح عبر الخادم الوسيط!")
     else:
-        f.write("# فشل الاستخراج التلقائي عبر الطلب المباشر.\n")
-        print("❌ فشل السحب التلقائي.")
+        f.write("# فشل السحب التلقائي عبر الـ Cloudflare Worker.")
+        print("❌ لم يتم العثور على الرابط.")
