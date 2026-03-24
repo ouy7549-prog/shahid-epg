@@ -1,8 +1,8 @@
-name: Update Dubai One Link
+name: Update IPTV Link
 on:
   schedule:
-    - cron: '0 */6 * * *' # يعمل كل 6 ساعات
-  workflow_dispatch: # للتشغيل اليدوي بزر Run
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
 
 jobs:
   build:
@@ -19,8 +19,7 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: |
-          pip install selenium webdriver-manager
+        run: pip install requests
 
       - name: Run script
         run: python script.py
