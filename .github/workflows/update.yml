@@ -1,14 +1,14 @@
 name: Update IPTV Link
 on:
   schedule:
-    - cron: '0 */6 * * *'
-  workflow_dispatch:
+    - cron: '0 */6 * * *' # يعمل تلقائياً كل 6 ساعات
+  workflow_dispatch: # يتيح لك التشغيل اليدوي
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # إذن الكتابة ضروري لحفظ الملف ودعمه في المستودع
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -19,7 +19,8 @@ jobs:
           python-version: '3.x'
 
       - name: Install dependencies
-        run: pip install requests
+        run: |
+          pip install selenium webdriver-manager PySocks # 👈 أضفنا PySocks هنا ليفهم البروكسي من نوع Socks5
 
       - name: Run script
         run: python script.py
