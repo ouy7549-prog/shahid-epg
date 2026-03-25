@@ -8,11 +8,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🔒 بيانات حسابك الحقيقي (قم بتغييرها هنا)
-USER_EMAIL = "tressanoiheisse-2431@yopmail.com"
-USER_PASSWORD = "T123456t@123"
+# 🔒 ضع حسابك الحقيقي هنا (تأكد من صحته)
+USER_EMAIL = "your_email@example.com"
+USER_PASSWORD = "your_password"
 
-def extract_with_login():
+def extract_with_login_forced():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
     chrome_options = Options()
@@ -30,11 +30,11 @@ def extract_with_login():
     found_url = None
 
     try:
-        print("جاري فتح الموقع لتسجيل الدخول الحقيقي...")
+        print("🚀 فتح الموقع...")
         driver.get(url)
-        wait = WebDriverWait(driver, 25)
+        wait = WebDriverWait(driver, 20)
         
-        # 1️⃣ قبول الكوكيز (لإبعاد الشريط السفلي)
+        # 1️⃣ تجاوز الكوكيز
         try:
             cookie_btn = wait.until(EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler")))
             cookie_btn.click()
@@ -42,48 +42,50 @@ def extract_with_login():
         except:
             pass
 
-        # 2️⃣ الضغط على زر Log In من النافذة المنبثقة
-        try:
-            print("الضغط على زر تسجيل الدخول...")
-            # البحث عن الزر النصي أو الكلاس الخاص بـ Login
-            login_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Log in')] | //a[contains(text(), 'Log in')]")))
-            login_btn.click()
-            time.sleep(5)
-        except:
-            print("لم نجد زر Login المباشر، سنحاول البحث عنه عبر الـ Header...")
-            try:
-                login_header = driver.find_element(By.CSS_SELECTOR, ".login-btn, .sign-in-up")
-                login_header.click()
-                time.sleep(5)
-            except:
-                print("فشل العثور على زر تسجيل الدخول.")
+        # 2️⃣ الضغط على زر Log in قسراً عبر JavaScript
+        print("🔘 الضغط على زر Log in قسرياً...")
+        driver.execute_script("""
+            // البحث عن أي زر يحتوي على كلمة Log in في الصفحة والضغط عليه
+            const buttons = Array.from(document.querySelectorAll('button, a'));
+            const loginBtn = buttons.find(b => b.textContent.trim() === 'Log in' || b.innerText.includes('Log in'));
+            if (loginBtn) {
+                loginBtn.click();
+            } else {
+                // محاولة الضغط على الزر الشفاف الذي يظهر في الصورة
+                document.querySelectorAll('button').forEach(b => {
+                    if(b.textContent.includes('Log in')) b.click();
+                });
+            }
+        """)
+        time.sleep(7) # ننتظر ظهور حقول الإيميل
 
-        # 3️⃣ كتابة الإيميل والباسورد
-        try:
-            print("جاري تعبئة بيانات الحساب الحقيقي...")
-            # السيلينيوم يبحث عن حقول الإدخال ويكتب فيها
-            email_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='email'], input[name='email']")))
-            email_field.send_keys(USER_EMAIL)
-            
-            password_field = driver.find_element(By.CSS_SELECTOR, "input[type='password'], input[name='password']")
-            password_field.send_keys(USER_PASSWORD)
-            time.sleep(1)
-            
-            # الضغط على زر Submit / Sign In
-            submit_btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit'], .submit-btn")
-            submit_btn.click()
-            print("✅ تم إرسال بيانات الدخول! ننتظر تحميل الصفحة...")
-            time.sleep(15) # انتظار تسجيل الدخول الفعلي وإعادة التوجيه
-        except Exception as e:
-            print(f"⚠️ فشل تعبئة الحقول: {e}")
-
-        # التقاط صورة لنتأكد هل سجل الدخول؟
+        # 📸 التقاط صورة لنرى هل ظهرت حقول الإيميل والباسورد؟
         driver.save_screenshot("debug_screenshot.png")
 
-        # 4️⃣ التنصت على الشبكة لسحب الرابط
-        print("الانتظار 30 ثانية لاستخراج الرابط من الشبكة...")
-        time.sleep(30) 
-        
+        # 3️⃣ تعبئة الحقول والضغط على الدخول
+        print("✍️ كتابة الإيميل والباسورد...")
+        driver.execute_script(f"""
+            const emailInput = document.querySelector("input[type='email'], input[name='email']");
+            const passInput = document.querySelector("input[type='password'], input[name='password']");
+            const submitBtn = document.querySelector("button[type='submit'], .submit-btn");
+
+            if (emailInput && passInput) {{
+                emailInput.value = '{USER_EMAIL}';
+                passInput.value = '{USER_PASSWORD}';
+                
+                // تفعيل أحداث الكتابة ليتعرف عليها الموقع
+                emailInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                passInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
+                
+                if (submitBtn) {{
+                    submitBtn.click();
+                }}
+            }}
+        """)
+        time.sleep(15) # انتظار تسجيل الدخول الفعلي
+
+        # 4️⃣ سحب الرابط بعد الدخول
+        print("📡 التنصت على الشبكة لسحب الرابط...")
         logs = driver.get_log("performance")
         for entry in logs:
             try:
@@ -101,14 +103,14 @@ def extract_with_login():
         
     return found_url
 
-# التشغيل وحفظ النتيجة
-found_link = extract_with_login()
+# التشغيل النهائي
+found_link = extract_with_login_forced()
 
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
         f.write(found_link)
-        print(f"🎯 مبروك! نجح تسجيل الدخول الحقيقي ووجدنا الرابط: {found_link}")
+        print(f"🎯 نجاح! تم الحصول على الرابط: {found_link}")
     else:
-        f.write("# لم يتم العثور على الرابط حتى بعد محاولة تسجيل الدخول.")
-        print("❌ لم نتمكن من العثور على الرابط في السجلات.")
+        f.write("# لم يتم العثور على الرابط. تحقق من الصورة لترى أين توقف المتصفح.")
+        print("❌ لم يتم العثور على الرابط.")
