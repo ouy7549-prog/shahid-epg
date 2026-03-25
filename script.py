@@ -30,8 +30,8 @@ def take_screenshot_without_proxy():
         time.sleep(15) 
 
         # 📸 أخذ لقطة الشاشة
-        screenshot_name = "elahmad_screenshot.png"
-        driver.save_screenshot(screenshot_name)
+        driver.save_screenshot("debug_screenshot.png")
+        print("✅ تم التقاط الصورة بنجاح باسم debug_screenshot.png!")
         print(f"✅ تم التقاط الصورة بنجاح وحفظها باسم: {screenshot_name}")
 
     except Exception as e:
