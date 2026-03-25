@@ -1,33 +1,46 @@
-import os
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import json
+import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
 
-# 🔒 1. جلب التوقيع الزمني من أسرار جيت هاب
-akamai_token = os.environ.get("DUBAI_ACCESS_TOKEN")
-
-# 🔗 2. الرابط الأساسي الصافي
-base_url = "https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd"
-
-if akamai_token:
-    final_link = f"{base_url}?hdntl={akamai_token}"
-else:
-    final_link = None
-
-# 📸 3. تشغيل سيلينيوم لالتقاط الصورة للتأكد
-if final_link:
-    print(f"🚀 جاري فتح الرابط النهائي للتأكد والتقاط الصورة...")
+def fetch_live_akamai():
+    url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
-    chrome_options = Options()
-    chrome_options.add_argument("--headless=new")
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
+    # استخدام undetected_chromedriver لتخطي حظر السيرفرات السحابية وCloudflare
+    options = uc.ChromeOptions()
+    options.add_argument("--headless") # تشغيل مخفي في الخلفية
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
-    driver.set_window_size(1920, 1080)
+    # التنصت على الشبكة لسحب التوكن المباشر
+    options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
     
+    driver = uc.Chrome(options=options)
+    found_url = None
+
+    try:
+        driver.get(url)
+        time.sleep(20) # ننتظر تحميل الصفحة ومشغل الفيديو لإنتاج الـ Token الأصلي من المتصفح
+
+        logs = driver.get_log("performance")
+        for entry in logs:
+            try:
+                msg = json.loads(entry["message"])["message"]
+                if "params" in msg and "request" in msg["params"]:
+                    request_url = msg["params"]["request"]["url"]
+                    if "master.mpd" in request_url and "hdntl=" in request_url:
+                        found_url = request_url
+                        break
+            except:
+                continue
+    finally:
+        driver.quit()
+
+    return found_url
+
+# التشغيل الفعلي وتحديث ملف الـ m3u
+new_link = fetch_live_akamai()
+
     try:
         # سنفتح الرابط للتأكد من تحميل السيرفر له
         driver.get(final_link)
@@ -41,12 +54,11 @@ if final_link:
     finally:
         driver.quit()
 
-# 📝 4. تحديث ملف الـ m3u
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
-    f.write("#EXTM3U\n")
-    f.write("#EXTINF:-1, Dubai One\n")
-    if final_link:
-        f.write(final_link)
-        print(f"🎯 تم تحديث ملف الـ m3u بالرابط الصحيح!")
+    f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
+    if new_link:
+        f.write(new_link)
+        print(f"🎯 نجاح! تم تجديد الرابط ووضعه في الملف الثابت: {new_link}")
     else:
-        f.write("# خطأ: لم يتم العثور على التوكن في الـ Secrets\n")
+        f.write("# فشل التحديث التلقائي هذه المرة بسبب الحظر.\n")
+        print("❌ فشل العثور على رابط جديد.")
