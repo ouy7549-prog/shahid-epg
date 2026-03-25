@@ -18,6 +18,11 @@ jobs:
         with:
           python-version: '3.x'
 
+      # 🟢 الخطوة المضافة لتثبيت المكتبات وحل المشكلة
+      - name: Install dependencies
+        run: |
+          pip install selenium webdriver-manager
+
       - name: Run Python script
         env:
           DUBAI_ACCESS_TOKEN: ${{ secrets.DUBAI_ACCESS_TOKEN }} # يمرر التوكن للسكريبت بأمان
@@ -28,7 +33,8 @@ jobs:
         with:
           name: debug-screenshot
           path: debug_screenshot.png
-          
+        continue-on-error: true # لكي لا يتوقف السكريبت لو فشلت الصورة لأي سبب
+
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
