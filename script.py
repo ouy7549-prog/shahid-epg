@@ -3,16 +3,31 @@ import json
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🔒 ضع حسابك الحقيقي هنا (تأكد من صحته)
-USER_EMAIL = "your_email@example.com"
-USER_PASSWORD = "your_password"
+# 🍪 نضع هنا الكوكيز الحقيقية التي استخرجتها أنت بنفسك
+COOKIES_JSON = [
+    {
+        "domain": ".www.dubaiplus.net",
+        "name": "OptanonAlertBoxClosed",
+        "value": "2026-02-10T18:11:54.324Z",
+        "path": "/"
+    },
+    {
+        "domain": ".www.dubaiplus.net",
+        "name": "OptanonConsent",
+        "value": "isGpcEnabled=0&datestamp=Wed+Mar+25+2026+20%3A47%3A03+GMT%2B0300+(%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A+%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=23f5248f-f1b8-4b06-bd01-97e202905854&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=&intType=2&geolocation=SA%3B02&AwaitingReconsent=false",
+        "path": "/"
+    },
+    {
+        "domain": ".www.dubaiplus.net",
+        "name": "access_token", # 👈 إذا كان اسم التوكن في المتصفح مختلفاً (مثل id_token أو session)، قم بتغييره هنا
+        "value": "09AKhCRwgpB0dkdhm6yByLD9wDTw3fe-eF9CH7i1ccQZvjVqSzUX8HskV0vWy95iiljDk2w_D9bz-_vOCBcDOCYYE",
+        "path": "/"
+    }
+]
 
-def extract_with_login_forced():
+def extract_with_auth_cookies():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
     chrome_options = Options()
@@ -30,62 +45,26 @@ def extract_with_login_forced():
     found_url = None
 
     try:
-        print("🚀 فتح الموقع...")
+        print("🚀 فتح النطاق لحقن التوكن...")
+        driver.get("https://www.dubaiplus.net")
+        time.sleep(5)
+
+        print("🍪 جاري حقن توكن تسجيل الدخول الحقيقي...")
+        for cookie in COOKIES_JSON:
+            try:
+                driver.add_cookie(cookie)
+            except Exception as e:
+                print(f"فشل حقن كوكي معينة: {e}")
+                continue
+
+        print("🔄 الانتقال لصفحة القناة بالهوية الجديدة...")
         driver.get(url)
-        wait = WebDriverWait(driver, 20)
-        
-        # 1️⃣ تجاوز الكوكيز
-        try:
-            cookie_btn = wait.until(EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler")))
-            cookie_btn.click()
-            time.sleep(2)
-        except:
-            pass
+        time.sleep(15) # نترك وقتاً للموقع ليعرف أنك مسجل دخول ويبدأ البث
 
-        # 2️⃣ الضغط على زر Log in قسراً عبر JavaScript
-        print("🔘 الضغط على زر Log in قسرياً...")
-        driver.execute_script("""
-            // البحث عن أي زر يحتوي على كلمة Log in في الصفحة والضغط عليه
-            const buttons = Array.from(document.querySelectorAll('button, a'));
-            const loginBtn = buttons.find(b => b.textContent.trim() === 'Log in' || b.innerText.includes('Log in'));
-            if (loginBtn) {
-                loginBtn.click();
-            } else {
-                // محاولة الضغط على الزر الشفاف الذي يظهر في الصورة
-                document.querySelectorAll('button').forEach(b => {
-                    if(b.textContent.includes('Log in')) b.click();
-                });
-            }
-        """)
-        time.sleep(7) # ننتظر ظهور حقول الإيميل
-
-        # 📸 التقاط صورة لنرى هل ظهرت حقول الإيميل والباسورد؟
+        # 📸 التقاط صورة لنرى هل اختفت النافذة السوداء؟
         driver.save_screenshot("debug_screenshot.png")
 
-        # 3️⃣ تعبئة الحقول والضغط على الدخول
-        print("✍️ كتابة الإيميل والباسورد...")
-        driver.execute_script(f"""
-            const emailInput = document.querySelector("input[type='email'], input[name='email']");
-            const passInput = document.querySelector("input[type='password'], input[name='password']");
-            const submitBtn = document.querySelector("button[type='submit'], .submit-btn");
-
-            if (emailInput && passInput) {{
-                emailInput.value = '{USER_EMAIL}';
-                passInput.value = '{USER_PASSWORD}';
-                
-                // تفعيل أحداث الكتابة ليتعرف عليها الموقع
-                emailInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
-                passInput.dispatchEvent(new Event('input', {{ bubbles: true }}));
-                
-                if (submitBtn) {{
-                    submitBtn.click();
-                }}
-            }}
-        """)
-        time.sleep(15) # انتظار تسجيل الدخول الفعلي
-
-        # 4️⃣ سحب الرابط بعد الدخول
-        print("📡 التنصت على الشبكة لسحب الرابط...")
+        print("📡 التنصت على الشبكة لسحب الرابط الرسمي...")
         logs = driver.get_log("performance")
         for entry in logs:
             try:
@@ -103,14 +82,14 @@ def extract_with_login_forced():
         
     return found_url
 
-# التشغيل النهائي
-found_link = extract_with_login_forced()
+# التشغيل وحفظ النتيجة
+found_link = extract_with_auth_cookies()
 
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
         f.write(found_link)
-        print(f"🎯 نجاح! تم الحصول على الرابط: {found_link}")
+        print(f"🎯 مبروك! نجحت خطة التوكن وحصلنا على الرابط: {found_link}")
     else:
-        f.write("# لم يتم العثور على الرابط. تحقق من الصورة لترى أين توقف المتصفح.")
+        f.write("# لم نجد الرابط بعد حقن التوكن. راجع الصورة.")
         print("❌ لم يتم العثور على الرابط.")
