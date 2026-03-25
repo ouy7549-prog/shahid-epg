@@ -21,9 +21,11 @@ jobs:
       # 🟢 الخطوة المضافة لتثبيت المكتبات وحل المشكلة
       - name: Install dependencies
         run: |
-          pip install selenium webdriver-manager
-          pip install undetected-chromedriver
+          python -m pip install --upgrade pip
+          pip install setuptools # 👈 هذا السطر يحل مشكلة distutils تماماً!
+          pip install selenium webdriver-manager undetected-chromedriver
 
+          
       - name: Run Python script
         env:
           DUBAI_ACCESS_TOKEN: ${{ secrets.DUBAI_ACCESS_TOKEN }} # يمرر التوكن للسكريبت بأمان
