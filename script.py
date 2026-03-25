@@ -1,18 +1,23 @@
 import time
 import json
 import undetected_chromedriver as uc
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 
-def run_undetected():
+def run_undetected_with_screenshot():
     print("🕵️‍♂️ جاري تشغيل المتصفح المتخفي (Undetected Chromedriver)...")
     
     options = uc.ChromeOptions()
-    options.add_argument("--headless")
+    # 🚫 وضع الـ Headless (مخفي) هو المطلوب ليعمل في السيرفر
+    options.add_argument("--headless=new") 
     options.add_argument('--no-sandbox')
     options.add_argument('--disable-dev-shm-usage')
     
-    # تفعيل قراءة روابط الشبكة في الخلفية
+    # 🚫 تفعيل قراءة روابط الشبكة في الخلفية لصيد الـ m3u8
     options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
     
+    # تشغيل المتصفح المتخفي
     driver = uc.Chrome(options=options)
     found_url = None
 
@@ -21,13 +26,19 @@ def run_undetected():
         print(f"🌍 فتح الرابط المباشر: {url}")
         driver.get(url)
         
-        print("⏳ ننتظر 25 ثانية لتجاوز الحماية وتحميل المشغل...")
+        # ⏳ ننتظر 25 ثانية لتجاوز Cloudflare تلقائياً وتحميل المشغل
+        print("⏳ ننتظر 25 ثانية ليتجاوز الـ Cloudflare ويحمل المشغل...")
         time.sleep(25) 
 
-        driver.save_screenshot("uc_screenshot.png")
-        print("✅ تم التقاط الصورة بنجاح باسم uc_screenshot.png!")
+        # 📸 أخذ لقطة الشاشة المطلوبة!
+        screenshot_name = "debug_screenshot.png"
+        driver.save_screenshot(screenshot_name)
+        print(f"✅ تم التقاط الصورة بنجاح باسم: {screenshot_name}")
 
+        # 🕵️‍♂️ فحص روابط الشبكة بالخلفية
+        print("🔎 جاري فحص الروابط المسحوبة من الشبكة...")
         logs = driver.get_log("performance")
+        
         for entry in logs:
             try:
                 msg = json.loads(entry["message"])["message"]
@@ -41,28 +52,17 @@ def run_undetected():
 
     finally:
         driver.quit()
-        
-            try:
-        # سنفتح الرابط للتأكد من تحميل السيرفر له
-        driver.get(final_link)
-        time.sleep(15) # ننتظر قليلاً ليحمل الملف
-        
-        # حفظ الصورة للتأكد
-        driver.save_screenshot("debug_screenshot.png")
-        print("✅ تم التقاط الصورة بنجاح باسم debug_screenshot.png!")
-    except Exception as e:
-        print(f"⚠️ فشل التقاط الصورة: {e}")
-    finally:
-        driver.quit()
 
+    # 📝 حفظ النتيجة في ملف الـ m3u8
     with open("dubai_one.m3u", "w", encoding="utf-8") as f:
         f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
         if found_url:
             f.write(found_url)
             print(f"🎯 مبروك! نجحنا في صيد الرابط: {found_url}")
         else:
-            f.write("# لم نتمكن من صيد الرابط هذه المرة.\n")
+            # رابط احتياطي في حال الفشل
+            f.write("https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd\n")
             print("❌ لم نجد رابط البث المباشر في هذه الجلسة.")
 
 # تشغيل الأتمتة
-run_undetected()
+run_undetected_with_screenshot()
