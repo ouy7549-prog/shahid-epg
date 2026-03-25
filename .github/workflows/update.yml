@@ -1,14 +1,14 @@
-name: Update IPTV Link
+name: Update Dubai One link
 on:
   schedule:
-    - cron: '0 */6 * * *' # يعمل تلقائياً كل 6 ساعات
-  workflow_dispatch: # يتيح لك التشغيل اليدوي
+    - cron: '0 */6 * * *' # يشتغل تلقائياً كل 6 ساعات لتجديد الرابط
+  workflow_dispatch: # يتيح لك التشغيل يدوياً بضغطة زر
 
 jobs:
   build:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # إذن الكتابة ضروري لحفظ الملف ودعمه في المستودع
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
@@ -18,28 +18,12 @@ jobs:
         with:
           python-version: '3.x'
 
-      - name: Install Google Chrome
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y google-chrome-stable
-
-      - name: Install dependencies
-        run: |
-          pip install selenium webdriver-manager PySocks
-
-      - name: Run script
+      - name: Run Python script
+        env:
+          DUBAI_ACCESS_TOKEN: ${{ secrets.DUBAI_ACCESS_TOKEN }} # يمرر التوكن للسكريبت بأمان
         run: python script.py
 
-      # 📸 خطوة التقاط الصورة ورفعها كملف مرفق (مصححة)
-      - name: Upload Screenshot
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshot
-          path: debug_screenshot.png
-          retention-days: 7
-
-      - name: Commit and Push Changes
+      - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
