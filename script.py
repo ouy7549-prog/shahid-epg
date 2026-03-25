@@ -1,5 +1,6 @@
 import time
 import json
+import os
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -13,51 +14,51 @@ def extract_from_dubaiplus():
     
     chrome_options = Options()
 
-    # 🚀 تشغيل صامت ومناسب لـ GitHub Actions
+    # 🚀 تشغيل صامت للـ GitHub Actions
     chrome_options.add_argument("--headless=new")
     chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
     chrome_options.add_argument("--disable-gpu")
-
-    # 🚫 تجاوز الحماية
     chrome_options.add_argument("--disable-blink-features=AutomationControlled")
     chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
 
     chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
+    # تحديد دقة الشاشة لتكون الصورة واضحة
+    driver.set_window_size(1920, 1080)
+    
     found_url = None
 
     try:
         driver.get(url)
-        wait = WebDriverWait(driver, 15)
+        wait = WebDriverWait(driver, 20) # الانتظار حتى 20 ثانية
         
         # 1️⃣ الضغط على Accept All Cookies
         try:
             print("تحرير المتصفح من شريط الكوكيز...")
             cookie_btn = wait.until(EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler")))
             cookie_btn.click()
-            time.sleep(2)
+            time.sleep(3)
         except:
             print("لم يتم العثور على شريط الكوكيز.")
 
-        # 2️⃣ إغلاق نافذة تسجيل الدخول المنبثقة (الضغط على X)
+        # 2️⃣ محاولة إغلاق نافذة تسجيل الدخول (X)
         try:
             print("محاولة إغلاق نافذة تسجيل الدخول المنبثقة...")
-            # جلب الزر عبر الـ Aria-label أو الـ Class
-            close_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[aria-label='Close'], .close-button, .popup-close")))
+            close_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[aria-label='Close'], .close-button, .popup-close, .vjs-close-button")))
             close_btn.click()
             print("✅ تم إغلاق النافذة بنجاح!")
-            time.sleep(3)
+            time.sleep(5) # الانتظار قليلاً بعد الإغلاق
         except:
-            print("⚠️ لم ننجح في إغلاق الـ Pop-up بالطريقة العادية، سنجرب بالـ JavaScript...")
-            try:
-                driver.execute_script("document.querySelector(\"button[aria-label='Close']\").click();")
-                time.sleep(3)
-            except:
-                print("⚠️ فشلت محاولة إغلاق النافذة بالكامل.")
+            print("⚠️ لم نجد زر الإغلاق، سنتابع...")
 
-        # 3️⃣ الانتظار والتنصت على الشبكة بحثاً عن الروابط
+        # 📸 3️⃣ التقاط صورة الآن (Screenshot) - هذه هي الخطوة السحرية!
+        print("📸 جاري التقاط صورة لشاشة المتصفح الصامت...")
+        driver.save_screenshot("debug_screenshot.png")
+        print("📸 تم حفظ الصورة باسم debug_screenshot.png")
+
+        # 4️⃣ التنصت على الشبكة واستخراج الرابط
         print("الانتظار 30 ثانية لتحميل البث واستخراج الرابط...")
         time.sleep(30) 
         
@@ -69,7 +70,7 @@ def extract_from_dubaiplus():
                     request_url = msg["params"]["request"]["url"]
                     if "akamaized.net" in request_url and (".mpd" in request_url or ".m3u8" in request_url):
                         found_url = request_url
-                        break # نكتفي بأول رابط نجده
+                        break
             except:
                 continue
 
@@ -81,6 +82,7 @@ def extract_from_dubaiplus():
 # التشغيل النهائي وحفظ النتيجة
 found_link = extract_from_dubaiplus()
 
+# حفظ الملف النهائي
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
