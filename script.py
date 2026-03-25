@@ -13,18 +13,22 @@ def extract_from_dubaiplus():
     
     chrome_options = Options()
 
-# 🚀 الأسطر السحرية الأربعة لتشغيل المتصفح في خوادم GitHub بدون شاشة:
-chrome_options.add_argument("--headless=new") # تشغيل صامت وبدون واجهة رسومية
-chrome_options.add_argument("--no-sandbox") # ضروري لبيئة خوادم Linux
-chrome_options.add_argument("--disable-dev-shm-usage") # يمنع انهيار المتصفح بسبب نقص الذاكرة
-chrome_options.add_argument("--disable-gpu") # تعطيل كرت الشاشة لعدم الحاجة له في السحاب
+    # 🚀 تشغيل المتصفح في خوادم GitHub بدون شاشة صامتة
+    chrome_options.add_argument("--headless=new")
+    chrome_options.add_argument("--no-sandbox")
+    chrome_options.add_argument("--disable-dev-shm-usage")
+    chrome_options.add_argument("--disable-gpu")
 
-# 🚫 منع تجميد المتصفح وتخطي الحجب
-chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    # 🚫 منع تجميد المتصفح وتخطي الحجب
+    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+    
+    # 🌍 استخدام البروكسي السعودي الذي وجدته لكسر الحظر الجغرافي
+    proxy_ip = "213.165.58.5:1080"
+    chrome_options.add_argument(f"--proxy-server=socks5://{proxy_ip}")
 
-chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     try:
         driver.get(url)
@@ -42,14 +46,12 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
         # 2️⃣ إغلاق نافذة تسجيل الدخول الإجبارية عبر الضغط على الـ (X)
         try:
             print("محاولة إغلاق نافذة تسجيل الدخول المنبثقة...")
-            # البحث عن زر الـ X باستخدام الـ Class الخاص بالنافذة المنبثقة
             close_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button[aria-label='Close'], .close-button, .popup-close")))
             close_btn.click()
             print("✅ تم إغلاق النافذة بنجاح!")
             time.sleep(2)
         except Exception as e:
             print(f"لم نتمكن من الضغط على زر الإغلاق بالطريقة العادية: {e}")
-            # محاولة الإغلاق عبر الـ JavaScript إذا فشل الضغط العادي
             try:
                 driver.execute_script("document.querySelector('.close-modal-selector').click();") 
             except:
@@ -57,7 +59,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 
         # 3️⃣ الانتظار لبدء البث والتنصت على الشبكة
         print("الانتظار لتحميل البث واستخراج الرابط...")
-        time.sleep(20) 
+        time.sleep(25) # زدنا الوقت قليلاً تحسباً لبطء البروكسي
         
         logs = driver.get_log("performance")
         for entry in logs:
@@ -75,7 +77,13 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
         driver.quit()
 
 found_link = extract_from_dubaiplus()
-if found_link:
-    print(f"🎯 تم العثور على الرابط المباشر: {found_link}")
-else:
-    print("❌ لم يتم العثور على الرابط بعد تخطي النوافذ.")
+
+# 📝 حفظ الملف في حال العثور عليه أم لا لمنع فشل الـ Action
+with open("dubai_one.m3u", "w", encoding="utf-8") as f:
+    f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
+    if found_link:
+        f.write(found_link)
+        print(f"🎯 تم العثور على الرابط المباشر: {found_link}")
+    else:
+        f.write("# فشل السحب التلقائي أو أن الموقع يحتاج لبروكسي آخر.")
+        print("❌ لم يتم العثور على الرابط.")
