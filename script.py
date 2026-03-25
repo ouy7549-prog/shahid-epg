@@ -12,15 +12,19 @@ def extract_from_dubaiplus():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
     chrome_options = Options()
-    # لتتمكن من رؤية ما يحدث أثناء الاختبار على جهازك، قم بتعطيل الـ headless مؤقتاً
-    # chrome_options.add_argument("--headless=new") 
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
-    chrome_options.add_argument("--disable-blink-features=AutomationControlled")
-    chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
-    
-    chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+
+# 🚀 الأسطر السحرية الأربعة لتشغيل المتصفح في خوادم GitHub بدون شاشة:
+chrome_options.add_argument("--headless=new") # تشغيل صامت وبدون واجهة رسومية
+chrome_options.add_argument("--no-sandbox") # ضروري لبيئة خوادم Linux
+chrome_options.add_argument("--disable-dev-shm-usage") # يمنع انهيار المتصفح بسبب نقص الذاكرة
+chrome_options.add_argument("--disable-gpu") # تعطيل كرت الشاشة لعدم الحاجة له في السحاب
+
+# 🚫 منع تجميد المتصفح وتخطي الحجب
+chrome_options.add_argument("--disable-blink-features=AutomationControlled")
+chrome_options.add_experimental_option("excludeSwitches", ["enable-automation"])
+
+chrome_options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
     
     try:
         driver.get(url)
