@@ -22,6 +22,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install selenium webdriver-manager
+          pip install undetected-chromedriver
 
       - name: Run Python script
         env:
