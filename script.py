@@ -1,44 +1,73 @@
 import time
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+import json
+import undetected_chromedriver as uc
 
-def take_screenshot_without_proxy():
-    chrome_options = Options()
-    # 🚫 وضع الـ Headless (بدون واجهة رسومية) وهو المطلوب في السيرفرات
-    chrome_options.add_argument("--headless=new") 
-    chrome_options.add_argument("--no-sandbox")
-    chrome_options.add_argument("--disable-dev-shm-usage")
+def run_undetected():
+    print("🕵️‍♂️ جاري تشغيل المتصفح المتخفي (Undetected Chromedriver)...")
     
-    # 🚫 نتأكد من عدم وجود أي إعدادات بروكسي في المتصفح
-    chrome_options.add_argument("--no-proxy-server")
-    chrome_options.add_argument("--proxy-server='direct://'")
-    chrome_options.add_argument("--proxy-bypass-list=*")
-
-    driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=chrome_options)
+    options = uc.ChromeOptions()
+    options.add_argument("--headless") # تشغيل مخفي في السيرفر
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
     
-    # 📐 ضبط حجم الشاشة ليكون واضحاً وعريضاً (Full HD)
-    driver.set_window_size(1920, 1080)
+    # التنصت على الشبكة لصيد الـ m3u8 أو الـ mpd
+    options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+    
+    # تشغيل المتصفح المتخفي
+    driver = uc.Chrome(options=options)
+    found_url = None
 
     try:
         url = "https://www.elahmad.com/tv/dubaione.htm"
-        print(f"🌍 جاري فتح الرابط المباشر: {url}")
+        print(f"🌍 فتح الرابط المباشر: {url}")
         driver.get(url)
         
-        print("⏳ ننتظر 15 ثانية ليتم تحميل المشغل بالكامل...")
-        time.sleep(15) 
+        print("⏳ ننتظر 25 ثانية ليتجاوز الـ Cloudflare تلقائياً ويحمل المشغل...")
+        time.sleep(25) 
 
-        # 📸 أخذ لقطة الشاشة
+        # 📸 أخذ لقطة الشاشة للتأكد أين وصلنا
+        driver.save_screenshot("uc_screenshot.png")
+        print("✅ تم التقاط الصورة بنجاح باسم uc_screenshot.png!")
+
+        # 🕵️‍♂️ فحص روابط الشبكة بالخلفية
+        print("🔎 جاري فحص الروابط المسحوبة من الشبكة...")
+        logs = driver.get_log("performance")
+        
+        for entry in logs:
+            try:
+                msg = json.loads(entry["message"])["message"]
+                if "params" in msg and "request" in msg["params"]:
+                    request_url = msg["params"]["request"]["url"]
+                    if (".m3u8" in request_url or ".mpd" in request_url) and "Segment" not in request_url:
+                        found_url = request_url
+                        break
+            except:
+                continue
+
+    finally:
+        driver.quit()
+            try:
+        # سنفتح الرابط للتأكد من تحميل السيرفر له
+        driver.get(final_link)
+        time.sleep(15) # ننتظر قليلاً ليحمل الملف
+        
+        # حفظ الصورة للتأكد
         driver.save_screenshot("debug_screenshot.png")
         print("✅ تم التقاط الصورة بنجاح باسم debug_screenshot.png!")
-        print(f"✅ تم التقاط الصورة بنجاح وحفظها باسم: {screenshot_name}")
-
     except Exception as e:
-        print(f"❌ حدث خطأ أثناء التقاط الصورة: {e}")
-        
+        print(f"⚠️ فشل التقاط الصورة: {e}")
     finally:
         driver.quit()
 
-# تشغيل الدالة
-take_screenshot_without_proxy()
+    # 📝 حفظ النتيجة في ملف الـ m3u8
+    with open("dubai_one.m3u", "w", encoding="utf-8") as f:
+        f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
+        if found_url:
+            f.write(found_url)
+            print(f"🎯 مبروك! نجحنا في صيد الرابط: {found_url}")
+        else:
+            f.write("# لم نتمكن من صيد الرابط هذه المرة.\n")
+            print("❌ لم نجد رابط البث المباشر في هذه الجلسة.")
+
+# تشغيل الفحص
+run_undetected()
