@@ -23,14 +23,12 @@ jobs:
           DUBAI_ACCESS_TOKEN: ${{ secrets.DUBAI_ACCESS_TOKEN }} # يمرر التوكن للسكريبت بأمان
         run: python script.py
 
-      - name: Upload Screenshot
-        if: always()
+      - name: Upload Debug Screenshot
         uses: actions/upload-artifact@v4
         with:
           name: debug-screenshot
           path: debug_screenshot.png
-          retention-days: 7
-
+          
       - name: Commit and Push changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
