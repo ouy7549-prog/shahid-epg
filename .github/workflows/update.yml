@@ -18,9 +18,15 @@ jobs:
         with:
           python-version: '3.x'
 
+      # 🌍 🛠️ الخطوة الجديدة والضرورية لـ GitHub Actions لتشغيل المتصفح
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
       - name: Install dependencies
         run: |
-          pip install selenium webdriver-manager PySocks # 👈 أضفنا PySocks هنا ليفهم البروكسي من نوع Socks5
+          pip install selenium webdriver-manager PySocks
 
       - name: Run script
         run: python script.py
