@@ -18,7 +18,6 @@ jobs:
         with:
           python-version: '3.x'
 
-      # 🌍 🛠️ الخطوة الجديدة والضرورية لـ GitHub Actions لتشغيل المتصفح
       - name: Install Google Chrome
         run: |
           sudo apt-get update
@@ -31,6 +30,15 @@ jobs:
       - name: Run script
         run: python script.py
 
+      # 📸 خطوة التقاط الصورة ورفعها كملف مرفق (مصححة)
+      - name: Upload Screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug-screenshot
+          path: debug_screenshot.png
+          retention-days: 7
+
       - name: Commit and Push Changes
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -42,17 +50,3 @@ jobs:
             git commit -m "Auto-update Dubai One Link"
             git push origin main
           fi
-          - name: Run script
-        run: python script.py
-
-      # 📸 🛠️ الخطوة الجديدة والضرورية لرفع الصورة المرفقة
-      - name: Upload Screenshot
-        if: always() # رفع الصورة دائماً حتى لو فشل السكريبت
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshot # اسم الملف المرفق
-          path: debug_screenshot.png # مسار الصورة
-          retention-days: 7 # الاحتفاظ بها لمدة 7 أيام
-
-      - name: Commit and Push Changes
-        # ... باقي الكود ...
