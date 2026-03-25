@@ -8,7 +8,11 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 
-def extract_from_dubaiplus():
+# 🔒 بيانات حسابك الحقيقي (قم بتغييرها هنا)
+USER_EMAIL = "tressanoiheisse-2431@yopmail.com"
+USER_PASSWORD = "T123456t@123"
+
+def extract_with_login():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
     chrome_options = Options()
@@ -26,42 +30,58 @@ def extract_from_dubaiplus():
     found_url = None
 
     try:
-        print("جاري فتح الموقع...")
+        print("جاري فتح الموقع لتسجيل الدخول الحقيقي...")
         driver.get(url)
         wait = WebDriverWait(driver, 25)
         
-        # 1️⃣ قبول الكوكيز
+        # 1️⃣ قبول الكوكيز (لإبعاد الشريط السفلي)
         try:
             cookie_btn = wait.until(EC.element_to_be_clickable((By.ID, "onetrust-accept-btn-handler")))
             cookie_btn.click()
-            time.sleep(3)
+            time.sleep(2)
         except:
             pass
 
-        # 2️⃣ إغلاق نافذة التسجيل الإجبارية (X)
+        # 2️⃣ الضغط على زر Log In من النافذة المنبثقة
         try:
-            print("محاولة إغلاق النافذة المنبثقة...")
-            # البحث عن الـ X بشتى الطرق الممكنة
-            close_btn = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, "button.vjs-close-button, button[aria-label='Close'], .popup-close")))
-            driver.execute_script("arguments[0].click();", close_btn)
-            print("✅ تم إغلاق النافذة!")
+            print("الضغط على زر تسجيل الدخول...")
+            # البحث عن الزر النصي أو الكلاس الخاص بـ Login
+            login_btn = wait.until(EC.element_to_be_clickable((By.XPATH, "//button[contains(text(), 'Log in')] | //a[contains(text(), 'Log in')]")))
+            login_btn.click()
             time.sleep(5)
         except:
-            print("⚠️ لم نجد زر الإغلاق، سنقوم بمحاولة إغلاقها قسراً عبر جافا سكريبت...")
+            print("لم نجد زر Login المباشر، سنحاول البحث عنه عبر الـ Header...")
             try:
-                driver.execute_script("""
-                    document.querySelectorAll("button[aria-label='Close'], .vjs-close-button").forEach(b => b.click());
-                """)
+                login_header = driver.find_element(By.CSS_SELECTOR, ".login-btn, .sign-in-up")
+                login_header.click()
                 time.sleep(5)
             except:
-                pass
+                print("فشل العثور على زر تسجيل الدخول.")
 
-        # 📸 التقاط الصورة بالاسم الصحيح الذي يبحث عنه ملف الـ YAML
-        print("📸 جاري التقاط الصورة...")
+        # 3️⃣ كتابة الإيميل والباسورد
+        try:
+            print("جاري تعبئة بيانات الحساب الحقيقي...")
+            # السيلينيوم يبحث عن حقول الإدخال ويكتب فيها
+            email_field = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "input[type='email'], input[name='email']")))
+            email_field.send_keys(USER_EMAIL)
+            
+            password_field = driver.find_element(By.CSS_SELECTOR, "input[type='password'], input[name='password']")
+            password_field.send_keys(USER_PASSWORD)
+            time.sleep(1)
+            
+            # الضغط على زر Submit / Sign In
+            submit_btn = driver.find_element(By.CSS_SELECTOR, "button[type='submit'], .submit-btn")
+            submit_btn.click()
+            print("✅ تم إرسال بيانات الدخول! ننتظر تحميل الصفحة...")
+            time.sleep(15) # انتظار تسجيل الدخول الفعلي وإعادة التوجيه
+        except Exception as e:
+            print(f"⚠️ فشل تعبئة الحقول: {e}")
+
+        # التقاط صورة لنتأكد هل سجل الدخول؟
         driver.save_screenshot("debug_screenshot.png")
 
-        # 3️⃣ التنصت على الشبكة
-        print("الانتظار 30 ثانية لاستخراج الرابط...")
+        # 4️⃣ التنصت على الشبكة لسحب الرابط
+        print("الانتظار 30 ثانية لاستخراج الرابط من الشبكة...")
         time.sleep(30) 
         
         logs = driver.get_log("performance")
@@ -81,14 +101,14 @@ def extract_from_dubaiplus():
         
     return found_url
 
-# التشغيل النهائي
-found_link = extract_from_dubaiplus()
+# التشغيل وحفظ النتيجة
+found_link = extract_with_login()
 
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
         f.write(found_link)
-        print(f"🎯 تم العثور على الرابط: {found_link}")
+        print(f"🎯 مبروك! نجح تسجيل الدخول الحقيقي ووجدنا الرابط: {found_link}")
     else:
-        f.write("# لم يتم العثور على الرابط بعد إغلاق النافذة. ربما يتطلب تسجيل دخول حقيقي.")
-        print("❌ لم يتم العثور على الرابط في السجلات.")
+        f.write("# لم يتم العثور على الرابط حتى بعد محاولة تسجيل الدخول.")
+        print("❌ لم نتمكن من العثور على الرابط في السجلات.")
