@@ -5,29 +5,10 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
 
-# 🍪 نضع هنا الكوكيز الحقيقية التي استخرجتها أنت بنفسك
-COOKIES_JSON = [
-    {
-        "domain": ".www.dubaiplus.net",
-        "name": "OptanonAlertBoxClosed",
-        "value": "2026-02-10T18:11:54.324Z",
-        "path": "/"
-    },
-    {
-        "domain": ".www.dubaiplus.net",
-        "name": "OptanonConsent",
-        "value": "isGpcEnabled=0&datestamp=Wed+Mar+25+2026+20%3A47%3A03+GMT%2B0300+(%D8%A7%D9%84%D8%AA%D9%88%D9%82%D9%8A%D8%AA+%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A+%D8%A7%D9%84%D8%B1%D8%B3%D9%85%D9%8A)&version=202601.1.0&browserGpcFlag=0&isIABGlobal=false&hosts=&consentId=23f5248f-f1b8-4b06-bd01-97e202905854&interactionCount=1&isAnonUser=1&landingPath=NotLandingPage&groups=&intType=2&geolocation=SA%3B02&AwaitingReconsent=false",
-        "path": "/"
-    },
-    {
-        "domain": ".www.dubaiplus.net",
-        "name": "access_token", # 👈 إذا كان اسم التوكن في المتصفح مختلفاً (مثل id_token أو session)، قم بتغييره هنا
-        "value": "09AKhCRwgpB0dkdhm6yByLD9wDTw3fe-eF9CH7i1ccQZvjVqSzUX8HskV0vWy95iiljDk2w_D9bz-_vOCBcDOCYYE",
-        "path": "/"
-    }
-]
+# 🔑 القيمة الطويلة التي استخرجتها أنت بنفسك من المتصفح
+MY_SECRET_TOKEN = "09AKhCRwgpB0dkdhm6yByLD9wDTw3fe-eF9CH7i1ccQZvjVqSzUX8HskV0vWy95iiljDk2w_D9bz-_vOCBcDOCYYE"
 
-def extract_with_auth_cookies():
+def extract_with_full_auth():
     url = "https://www.dubaiplus.net/epg?channel=702096936070"
     
     chrome_options = Options()
@@ -45,26 +26,44 @@ def extract_with_auth_cookies():
     found_url = None
 
     try:
-        print("🚀 فتح النطاق لحقن التوكن...")
+        print("🚀 فتح الموقع لحقن الهوية الشاملة...")
         driver.get("https://www.dubaiplus.net")
         time.sleep(5)
 
-        print("🍪 جاري حقن توكن تسجيل الدخول الحقيقي...")
-        for cookie in COOKIES_JSON:
+        # 1️⃣ حقن التوكن في الـ Cookies بـ 4 أسماء مشهورة دفعة واحدة لتفادي الخطأ
+        possible_cookie_names = ["access_token", "jwt", "session_token", "id_token", "auth_token"]
+        for name in possible_cookie_names:
             try:
-                driver.add_cookie(cookie)
-            except Exception as e:
-                print(f"فشل حقن كوكي معينة: {e}")
+                driver.add_cookie({
+                    "domain": ".www.dubaiplus.net",
+                    "name": name,
+                    "value": MY_SECRET_TOKEN,
+                    "path": "/"
+                })
+            except:
                 continue
 
-        print("🔄 الانتقال لصفحة القناة بالهوية الجديدة...")
-        driver.get(url)
-        time.sleep(15) # نترك وقتاً للموقع ليعرف أنك مسجل دخول ويبدأ البث
+        # 2️⃣ حقن التوكن في الـ LocalStorage والـ SessionStorage عبر جافا سكريبت
+        print("💾 جاري حقن الهوية في الـ Local Storage...")
+        driver.execute_script(f"""
+            // تجربة كل المفاتيح الشائعة التي تستخدمها المواقع الحديثة
+            localStorage.setItem('access_token', '{MY_SECRET_TOKEN}');
+            localStorage.setItem('jwt', '{MY_SECRET_TOKEN}');
+            localStorage.setItem('token', '{MY_SECRET_TOKEN}');
+            localStorage.setItem('user_session', '{MY_SECRET_TOKEN}');
+            
+            sessionStorage.setItem('access_token', '{MY_SECRET_TOKEN}');
+            sessionStorage.setItem('jwt', '{MY_SECRET_TOKEN}');
+        """)
 
-        # 📸 التقاط صورة لنرى هل اختفت النافذة السوداء؟
+        print("🔄 تحديث الصفحة بالهوية الجديدة الشاملة...")
+        driver.get(url)
+        time.sleep(20) # وقت كافٍ للموقع للتعرف على الجلسة وتحميل البث
+
+        # التقاط صورة للتأكد
         driver.save_screenshot("debug_screenshot.png")
 
-        print("📡 التنصت على الشبكة لسحب الرابط الرسمي...")
+        print("📡 التنصت على سجلات الشبكة...")
         logs = driver.get_log("performance")
         for entry in logs:
             try:
@@ -83,13 +82,13 @@ def extract_with_auth_cookies():
     return found_url
 
 # التشغيل وحفظ النتيجة
-found_link = extract_with_auth_cookies()
+found_link = extract_with_full_auth()
 
 with open("dubai_one.m3u", "w", encoding="utf-8") as f:
     f.write("#EXTM3U\n#EXTINF:-1, Dubai One\n")
     if found_link:
         f.write(found_link)
-        print(f"🎯 مبروك! نجحت خطة التوكن وحصلنا على الرابط: {found_link}")
+        print(f"🎯 مبروك! نجح الحقن الشامل وحصلنا على الرابط: {found_link}")
     else:
-        f.write("# لم نجد الرابط بعد حقن التوكن. راجع الصورة.")
+        f.write("# لم نجد الرابط بعد محاولة الحقن الشامل.")
         print("❌ لم يتم العثور على الرابط.")
