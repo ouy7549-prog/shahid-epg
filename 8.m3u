@@ -1,0 +1,21 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="ثمانية", ثمانية 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=714c789c76686632652eefc19f18c3db:962cee49ee9422b44a6c60a7999854ad
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/STCT1/STCT1.isml/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="ثمانية", ثمانية 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=97e293d59ed72db87f12fe7075d8bb4c:c633955e4477ed5acbae68a2b0f1d216
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/STCT2/STCT2.isml/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="ثمانية", ثمانية 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4bc8e4e871589a45e7c0c7d245c243c6:4c5e8108e0f3cea4b588f5727d3de482
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/STCT3/STCT3.isml/manifest.mpd
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FwO6ez6.png" group-title="ثمانية", ثمانية 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5adc03a03769a3de1add46d210c74ffd:35b9076c39200965414cdf22a21686ee
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/STCT4/STCT4.isml/manifest.mpd
