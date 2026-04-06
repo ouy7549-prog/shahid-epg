@@ -1,1 +1,1 @@
-https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
+https://mbcvod-enc.edgenextcdn.net/out/v1/116a8e5dc7be42dfbffc577fd397e5ff/4c1a89a595654d7a8a38c8c59aa59cff/24b4a7f03654492a9dd2498706946c57/manifest.mpd
