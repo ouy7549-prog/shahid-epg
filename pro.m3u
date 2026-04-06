@@ -83,7 +83,7 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01ad62cecdb4194d08b227682d7b1935:d534d7f207baae2e51a279107049f544
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://admn-fast-mpd-session-tk.starzplayarabia.com/out/v1/admn_tv/majid/majid_dash/index.mpd
+https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_dash/index.mpd
 #EXTINF:-1 tvg-id="CNArabic(src09).sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="", Cartoon Network Arabic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18f735985ada8c2183621c4316150095:5bbb37067a13fa42433314b9a89f889b
