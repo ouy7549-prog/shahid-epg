@@ -1,20 +1,20 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", STC Sport 1
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WCgcBrk.png" group-title="Sport", STC Sport 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47f0ab58f5a81c20b5b69dc494cbe102:1e0719da653c2b4652f0b0bf84d96c74
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STC/STC.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", STC Sport 2
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/u8PNY2L.png" group-title="Sport", STC Sport 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e74c7d697bd26595b196c6b96e2d4f5b:e288110233737502e8af9184098ab50b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/JAW1/JAW1.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", STC Sport 3
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YAJoN3z.png" group-title="Sport", STC Sport 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1fd615ca2c5353fc5393da466ce31cbc:942822c6e7d3b01dd71bffded7ac0aa8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STC3/STC3.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", STC Sport 4
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/JZ46pbc.png" group-title="Sport", STC Sport 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01065be7ffbb268f2aadf7424b8ee24e:79a541c99e9bb7815e257e4a4ff46dbb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -39,47 +39,47 @@ https://fastlyrwb-live.cdn.intigral-ott.net/STCT3/STCT3.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=5adc03a03769a3de1add46d210c74ffd:35b9076c39200965414cdf22a21686ee
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT4/STCT4.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", STC Thamnya
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/UvfZlK0.png" group-title="", STC Thamnya
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ebed7aab13df195c486446acccb4ccc:a514dba4389dbec5a49cc296f838993a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://dmi-vod-prod.akamaized.net/images/channels/OneTV_1280x720.png" group-title="UAE", Dubai One
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7gBj8aS.png" group-title="UAE", Dubai One
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ab96aca699762f6402588eafe321a975:345f243b66226e22c7637b0050930b18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/DBO/DBO.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", Al Nahar
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/HWgw7zn.png" group-title="", Al Nahar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2a1a984b3f9587bfe450b4335f5f672:59487c0c415a995e9bd2d384d08871b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/NAR/NAR.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="Sport", Al Nahar Drama
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/8NK3auW.png" group-title="", Al Nahar Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f6204e4d7aa3538fded62be8c04ad0c7:0d6e44ff40173c6de135c4544d6cb888
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/NAD/NAD.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", CBC
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/UvyC61d.png" group-title="", CBC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=92e25d983c1cc0f0aa7c6981c8a0d9f4:87e328a98f971797feb9b30c4555d82b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/CBC/CBC.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", CBC Drama
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bhq2DLF.png" group-title="", CBC Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bbe52bf1e9dedfb41ec620eee7455c93:7c005ea4fa236bfb9fd5f97336feb637
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/CBD/CBD.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", Al Hayat
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOO79dS.png" group-title="", Al Hayat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=aad33a029c39e70a58600b54ae5b8dee:24ea749523d73b7a087ba61c16568f4b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/AH1/AH1.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", Cartoon Network
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="", Cartoon Network HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/TCN/TCN.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", Majed
+#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bhq0iKL.png" group-title="", Majed
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=64d581b1c69f62ded3d3085245ee74d9:ff66c471d1fb0e2c3140ee8a62814d8b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
