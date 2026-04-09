@@ -170,7 +170,7 @@ https://fastlyrwb-live.cdn.intigral-ott.net/STC4/STC4.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=b253c726c24c7c94a3ddf9b1907e2c76:097963d6ad73c3d712a104981de0ed42
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://github.com/ouy7549-prog/shahid-epg/raw/refs/heads/main/o.txt
+https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd
 #EXTINF:-1 tvg-id="387286" tvg-logo="https://shahid.mbc.net/mediaObject/20060ee9-6a34-4090-a7e6-935906ec31af?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Alarabiya
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8
 #EXTINF:-1 tvg-id="387288" tvg-logo="https://shahid.mbc.net/mediaObject/c5bad731-85af-493b-aa4f-f2aa01576376?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Al hadath
