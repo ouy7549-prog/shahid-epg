@@ -191,5 +191,7 @@ https://live-hls-web-aja-gcp.thehlive.com/AJA/index.m3u8
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8
 #EXTINF:-1 tvg-id="AlEkhbariya(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/80341c5b-6c68-406d-b8a8-673f1481c4e8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", الإخبارية
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-logo="https://ichef.bbci.co.uk/images/ic/800xn/p0m9xygc.png" group-title="أخبار", BBC عربية
+https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
 #EXTINF:-1 tvg-id="SkyNewsArabia(src09).sa" tvg-logo="https://starzplay-img-prod-ssl.akamaized.net/prd-peg-data/default/images/logos/live/v2/skynewsarabia-active.png" group-title="أخبار", Sky News عربية
 https://live-stream.skynewsarabia.com/c-horizontal-channel/horizontal-stream/index.m3u8
