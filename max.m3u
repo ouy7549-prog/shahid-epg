@@ -130,7 +130,7 @@ https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=714c789c76686632652eefc19f18c3db:962cee49ee9422b44a6c60a7999854ad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://cloudfront-live.servers8.com/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJZOWFDSHJjUkt2YUVhenJxQWRJVU10TDQwM3ExIiwiY2hhbm5lbE5hbWUiOiJjaDAxLWZ0YSIsImlwIjoiMTUxLjI1NS4xNC4xNDAiLCJpcF92NCI6IjE1MS4yNTUuMTQuMTQwIiwiaXBfdjYiOiIiLCJ1c2VyQWdlbnQiOiJNb3ppbGxhLzUuMCAoV2luZG93cyBOVCAxMC4wOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvMTQ2LjAuMC4wIFNhZmFyaS81MzcuMzYiLCJuYmYiOjE3NzU5MzM4NTYsImV4cCI6MTc3NTk0NDY1NiwiZ2VvQnlwYXNzIjpmYWxzZSwiaWF0IjoxNzc1OTMzODU2fQ.GhMkqssraRgibyjW9qOpraGCLhM4KyJ9c8saUStwldI/live/ch01-fta/index.m3u8?auth_key=1775933886-bd29f51a09f14f83863890de5172cc35-0-c9909cd4bbc75eae8643287f56068dca
+http://mr7-4k.live:80/live/2816429324789/6527985287321/314309.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=97e293d59ed72db87f12fe7075d8bb4c:c633955e4477ed5acbae68a2b0f1d216
