@@ -130,7 +130,7 @@ https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=714c789c76686632652eefc19f18c3db:962cee49ee9422b44a6c60a7999854ad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://mr7-4k.live:80/live/2816429324789/6527985287321/314309.m3u8
+https://fastlyrwb-live.cdn.intigral-ott.net/STCT1/STCT1.isml/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=97e293d59ed72db87f12fe7075d8bb4c:c633955e4477ed5acbae68a2b0f1d216
@@ -181,6 +181,26 @@ https://fastlyrwb-live.cdn.intigral-ott.net/ADSP2/ADSP2.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=42d7a462640c6748371d39f23e4a18c3:f4bef9f080f4a3a52dd55d5c3b8b81e2
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://fastlyrwb-live.cdn.intigral-ott.net/SPZ/SPZ.isml/manifest.mpd
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="Bein Sports Global 4K" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",Bein Sports Global 4K
+http://mr7-4k.live:80/live/2816429324789/6527985287321/340120.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 1" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 1
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313095.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 2" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 2
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313096.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 3" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 3
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313097.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 4" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 4
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313098.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 5" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 5
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313099.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 6" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 6
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313100.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 7" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 7
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313101.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 8" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 8
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313102.m3u8
+#EXTINF:-1 xm-ott="{ID}" tvg-id="" tvg-name="beIN SPORTS 4K 9" tvg-logo="https://i.postimg.cc/RFs0Cc9C/download.png" group-title="BEIN",beIN SPORTS 4K 9
+http://mr7-4k.live:80/live/2816429324789/6527985287321/313103.m3u8
 #EXTINF:-1 tvg-id="387286" tvg-logo="https://shahid.mbc.net/mediaObject/20060ee9-6a34-4090-a7e6-935906ec31af?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Alarabiya
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-alarabiya/7f90de73d777d04f3dada92f90d35c44/index.m3u8
 #EXTINF:-1 tvg-id="387288" tvg-logo="https://shahid.mbc.net/mediaObject/c5bad731-85af-493b-aa4f-f2aa01576376?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", Al hadath
