@@ -1,79 +1,70 @@
 import cloudscraper
 import base64
-from Crypto.Cipher import AES
 import re
+from Crypto.Cipher import AES
 
-def decrypt_payload(ciphertext, key_str, iv_str):
+def decrypt_payload(ciphertext, key_hex, iv_hex):
     try:
-        # الحل الجذري لطول المفتاح: 
-        # تحويل المفتاح والـ IV من نص Hex إلى Bytes
-        # الـ Hex المكون من 64 حرف سيتحول إلى 32 بايت (وهو الطول المثالي لـ AES-256)
-        key = bytes.fromhex(key_str)
-        iv = bytes.fromhex(iv_str)
+        # تحويل الـ Hex المرسل من الموقع إلى Bytes صالحة لـ AES
+        key = bytes.fromhex(key_hex)
+        iv = bytes.fromhex(iv_hex)
         
+        # فك تشفير Base64
         encrypted_data = base64.b64decode(ciphertext)
         
-        # استخدام النمط CBC (رقم 2)
-        cipher = AES.new(key, 2, iv) 
-        
+        # استخدام نمط CBC (الرقم 2)
+        cipher = AES.new(key, 2, iv)
         decrypted_raw = cipher.decrypt(encrypted_data)
+        
+        # تحويل النتيجة لنص مع تجاهل الأخطاء وتنظيف رموز الـ Padding (الحل الجذري للرموز الغريبة)
         decrypted_text = decrypted_raw.decode('utf-8', errors='ignore')
         
-        # البحث عن الرابط
-        found_links = re.findall(r'https?://[^\s<>"]+', decrypted_text)
-
-        # هذا السطر يزيل أي رموز غير مرئية أو Padding من نهاية الرابط
-        final_link = re.sub(r'[^\x20-\x7E]', '', final_link)
+        # البحث عن الرابط باستخدام Regex
+        found = re.findall(r'https?://[^\s<>"]+', decrypted_text)
         
-        if found_links:
-            # تنظيف الرابط من أي علامات هروب (Backslashes)
-            return found_links[0].replace('\\', '')
+        if found:
+            # تنظيف الرابط من أي رموز غير مرئية (مثل 0x05) أو علامات هروب
+            link = found[0].replace('\\', '')
+            clean_link = "".join(char for char in link if 31 < ord(char) < 127)
+            return clean_link
         
-        return f"Decrypted, but no link found in: {decrypted_text[:50]}"
-
+        return "Error: Link not found in decrypted text"
     except Exception as e:
-        # إذا فشل تحويل Hex، نجرب الطول العادي (للاحتياط)
-        try:
-            key = key_str.encode('utf-8')[:32]
-            iv = iv_str.encode('utf-8')[:16]
-            cipher = AES.new(key, 2, iv)
-            decrypted_raw = cipher.decrypt(base64.b64decode(ciphertext))
-            return re.findall(r'https?://[^\s<>"]+', decrypted_raw.decode('utf-8', errors='ignore'))[0]
-        except:
-            return f"Final Attempt Error: {str(e)}"
+        return f"Decryption Fail: {str(e)}"
 
 def run():
     scraper = cloudscraper.create_scraper()
-    # بيانات الطلب لقناة دبي ون
     api_url = "https://www.elahmad.org/tv/live/shahid_shaka.php"
     payload = {"id": "dubaione"}
+    
+    # تحسين الـ Headers لمحاكاة المتصفح الذي أنتج الرابط اليدوي الناجح
     headers = {
-    "Origin": "https://www.elahmad.org",
-    "Referer": "https://www.elahmad.org/",
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
-    "X-Requested-With": "XMLHttpRequest",
-    "Accept": "application/json, text/javascript, */*; q=0.01",
-}
+        "Origin": "https://www.elahmad.org",
+        "Referer": "https://www.elahmad.org/",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest"
+    }
 
     try:
         resp = scraper.post(api_url, data=payload, headers=headers)
         if resp.status_code == 200:
             data = resp.json()
             
-            # جلب الثلاثي المعتمد للتشفير
+            # استخراج البيانات
             c_text = data.get("link_4")
-            key = data.get("key")
-            iv = data.get("iv")
+            k_hex = data.get("key")
+            i_hex = data.get("iv")
             
-            if all([c_text, key, iv]):
-                result = decrypt_payload(c_text, key, iv)
+            if all([c_text, k_hex, i_hex]):
+                final_result = decrypt_payload(c_text, k_hex, i_hex)
                 with open("live_link.txt", "w") as f:
-                    f.write(result)
-                print("Done: Link extracted.")
+                    f.write(final_result)
             else:
-                print("Error: Missing JSON fields.")
+                with open("live_link.txt", "w") as f:
+                    f.write("Error: Missing JSON fields from server")
     except Exception as e:
-        print(f"Scraper Error: {e}")
+        with open("live_link.txt", "w") as f:
+            f.write(f"Scraper Error: {str(e)}")
 
 if __name__ == "__main__":
     run()
