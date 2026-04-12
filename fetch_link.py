@@ -21,6 +21,9 @@ def decrypt_payload(ciphertext, key_str, iv_str):
         
         # البحث عن الرابط
         found_links = re.findall(r'https?://[^\s<>"]+', decrypted_text)
+
+        # هذا السطر يزيل أي رموز غير مرئية أو Padding من نهاية الرابط
+        final_link = re.sub(r'[^\x20-\x7E]', '', final_link)
         
         if found_links:
             # تنظيف الرابط من أي علامات هروب (Backslashes)
@@ -44,7 +47,13 @@ def run():
     # بيانات الطلب لقناة دبي ون
     api_url = "https://www.elahmad.org/tv/live/shahid_shaka.php"
     payload = {"id": "dubaione"}
-    headers = {"Referer": "https://www.elahmad.org/"}
+    headers = {
+    "Origin": "https://www.elahmad.org",
+    "Referer": "https://www.elahmad.org/",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36",
+    "X-Requested-With": "XMLHttpRequest",
+    "Accept": "application/json, text/javascript, */*; q=0.01",
+}
 
     try:
         resp = scraper.post(api_url, data=payload, headers=headers)
