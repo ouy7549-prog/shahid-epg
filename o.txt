@@ -1,1 +1,6 @@
-https://sps1.starzplayarabia.com/out/v1/eee188845e9543699fd24e5a9890c6e2/index.mpd
+#EXTM3U
+#EXTINF:-1 tvg-id="" tvg-logo="" group-title="", ONE
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=98a5480e7cb53fe7922477f76acba548:ad0076dfd98433a75312bb5e4f14525b
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://github.com/ouy7549-prog/shahid-epg/raw/refs/heads/main/live_link.txt
