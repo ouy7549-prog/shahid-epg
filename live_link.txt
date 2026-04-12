@@ -1,1 +1,1 @@
-https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd?hdnts=st=1776033095~exp=1776033155~acl=/Content/Channel/onetv/DASH/master.mpd*~hmac=36dfad0af9c75aba19f9f65600b6ec8441d3ff4bf96adba24469e33005f4d370
+Final Attempt Error: cannot access local variable 'final_link' where it is not associated with a value
