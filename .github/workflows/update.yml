@@ -19,7 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install cloudscraper
+          pip install cloudscraper pycryptodome
 
       - name: Run fetch script
         run: python fetch_link.py
