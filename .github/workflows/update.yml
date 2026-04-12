@@ -19,6 +19,7 @@ jobs:
 
       - name: Install dependencies
         run: |
+          pip install --upgrade pip
           pip install cloudscraper pycryptodome
 
       - name: Run fetch script
