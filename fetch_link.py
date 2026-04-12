@@ -5,34 +5,39 @@ import re
 
 def decrypt_payload(ciphertext, key_str, iv_str):
     try:
-        # تحويل البيانات إلى Bytes مع التأكد من الترميز
-        key = key_str.encode('utf-8')
-        iv = iv_str.encode('utf-8')
+        # الحل الجذري لطول المفتاح: 
+        # تحويل المفتاح والـ IV من نص Hex إلى Bytes
+        # الـ Hex المكون من 64 حرف سيتحول إلى 32 بايت (وهو الطول المثالي لـ AES-256)
+        key = bytes.fromhex(key_str)
+        iv = bytes.fromhex(iv_str)
         
-        # فك ترميز Base64 للنص المشفر
         encrypted_data = base64.b64decode(ciphertext)
         
-        # الحل الجذري: تعريف الـ Mode بشكل رقمي مباشر (رقم 2 يرمز لـ CBC) 
-        # لضمان عدم حدوث تعارض في الاستيراد داخل GitHub Actions
+        # استخدام النمط CBC (رقم 2)
         cipher = AES.new(key, 2, iv) 
         
         decrypted_raw = cipher.decrypt(encrypted_data)
-        
-        # تحويل النتيجة لنص مع تجاهل الحروف غير القابلة للقراءة (Padding)
         decrypted_text = decrypted_raw.decode('utf-8', errors='ignore')
         
-        # البحث عن الرابط باستخدام Regex (تعبير نمطي) لضمان الدقة
-        found_links = re.findall(r'https?://[^\s<>"]+|(?<=link":")[^"]+', decrypted_text)
+        # البحث عن الرابط
+        found_links = re.findall(r'https?://[^\s<>"]+', decrypted_text)
         
         if found_links:
-            # تنظيف الرابط الناتج من أي بقايا تشفير
-            final_link = found_links[0].split('\\')[0].replace('"', '').strip()
-            return final_link
+            # تنظيف الرابط من أي علامات هروب (Backslashes)
+            return found_links[0].replace('\\', '')
         
         return f"Decrypted, but no link found in: {decrypted_text[:50]}"
 
     except Exception as e:
-        return f"Root Error: {str(e)}"
+        # إذا فشل تحويل Hex، نجرب الطول العادي (للاحتياط)
+        try:
+            key = key_str.encode('utf-8')[:32]
+            iv = iv_str.encode('utf-8')[:16]
+            cipher = AES.new(key, 2, iv)
+            decrypted_raw = cipher.decrypt(base64.b64decode(ciphertext))
+            return re.findall(r'https?://[^\s<>"]+', decrypted_raw.decode('utf-8', errors='ignore'))[0]
+        except:
+            return f"Final Attempt Error: {str(e)}"
 
 def run():
     scraper = cloudscraper.create_scraper()
