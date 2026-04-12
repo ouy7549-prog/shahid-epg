@@ -1,51 +1,32 @@
-name: Update Dubai One link
+name: Update Stream Link
+
 on:
   schedule:
-    - cron: '0 */6 * * *' # يشتغل تلقائياً كل 6 ساعات لتجديد الرابط
-  workflow_dispatch: # يتيح لك التشغيل يدوياً بضغطة زر
+    - cron: '0 * * * *' # يعمل كل ساعة
+  workflow_dispatch: # يسمح لك بتشغيله يدوياً
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
+      - name: Checkout code
+        uses: actions/checkout@v3
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # 🟢 الخطوة المضافة لتثبيت المكتبات وحل المشكلة
       - name: Install dependencies
+        run: pip install requests
+
+      - name: Run fetch script
+        run: python fetch_link.py
+
+      - name: Commit and push changes
         run: |
-          python -m pip install --upgrade pip
-          pip install setuptools # 👈 هذا السطر يحل مشكلة distutils تماماً!
-          pip install selenium webdriver-manager undetected-chromedriver
-
-          
-      - name: Run Python script
-        env:
-          DUBAI_ACCESS_TOKEN: ${{ secrets.DUBAI_ACCESS_TOKEN }} # يمرر التوكن للسكريبت بأمان
-        run: python script.py
-
-      - name: Upload Debug Screenshot
-        uses: actions/upload-artifact@v4
-        with:
-          name: debug-screenshot
-          path: debug_screenshot.png
-        continue-on-error: true # لكي لا يتوقف السكريبت لو فشلت الصورة لأي سبب
-
-      - name: Commit and Push changes
-        run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
-          git add dubai_one.m3u
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-          else
-            git commit -m "Auto-update Dubai One Link"
-            git push origin main
-          fi
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add live_link.txt
+          git commit -m "Update Dubai One Link" || exit 0
+          git push
