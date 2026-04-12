@@ -27,6 +27,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
-          git add live_link.txt
-          git commit -m "Update Dubai One Link" || exit 0
-          git push
+          # التحقق من وجود الملف قبل عمل add
+          if [ -f live_link.txt ]; then
+            git add live_link.txt
+            # لن يقوم بعمل commit إلا إذا كان هناك تغيير حقيقي في المحتوى
+            git commit -m "Update Dubai One Link" || echo "No changes to commit"
+            git push
+          else
+            echo "File live_link.txt not found, skipping..."
+            exit 1
+          fi
