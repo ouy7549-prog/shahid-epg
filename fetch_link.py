@@ -2,7 +2,7 @@ import requests
 import os
 
 def fetch_dubai_one():
-    url = "https://www.elahmad.org/tv/live/shahid_shaka.php?id=dubaione"
+    url = "https://www.elahmad.org/tv/live/shahid_shaka.php"
     headers = {
         "Content-Type": "application/x-www-form-urlencoded",
         "Referer": "https://www.elahmad.org/",
