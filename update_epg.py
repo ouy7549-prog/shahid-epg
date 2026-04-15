@@ -11,7 +11,7 @@ def update_combined_epg():
     to_date = (now + timedelta(days=2)).strftime("%Y-%m-%dT23:59:59.000Z")
     
     shahid_url = f"https://api3.shahid.net/proxy/v2.1/shahid-epg-api/?csvChannelIds={channel_ids}&language=ar&from={from_date}&to={to_date}&country=SA"
-    m3u4u_url = "http://m3u4u.com/xml/p87vnr1g26f62772y41j"
+    m3u4u_url = "https://raw.githubusercontent.com/ouy7549-prog/starzplay-epg/refs/heads/main/starzplay_epg.xml"
 
     headers = {'User-Agent': 'Mozilla/5.0'}
 
