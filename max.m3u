@@ -112,7 +112,7 @@ https://admn-live-cdn-lb.starzplayarabia.com/out/v1/admn_tv_enc/majid/majid_dash
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Baraem_new_logo.png" group-title="أطفال", Baraem
 http://supaapp.xyz:8080/2551810583569940/2025565766597215/319685
 #EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JeemTV_logo.png/250px-JeemTV_logo.png" group-title="أطفال", jeem
-http://supaapp.xyz:8080/2551810583569940/2025565766597215/319686
+https://games1.elahmad.xyz/tv793_www.elahmad.com_jeem/index.m3u8?token=e3e819b5648235a9d3cae8dd3be10a7b3b10232c-45fc6b2ec289110a942623ba01038575-1776284281-1776282481
 #EXTINF:-1 tvg-id="CNArabic(src09).sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="أطفال", Cartoon Network Arabic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=18f735985ada8c2183621c4316150095:5bbb37067a13fa42433314b9a89f889b
