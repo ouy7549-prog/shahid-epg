@@ -115,9 +115,9 @@ http://supaapp.xyz:8080/2551810583569940/2025565766597215/319685
 https://games1.elahmad.xyz/tv793_www.elahmad.com_jeem/index.m3u8?token=e3e819b5648235a9d3cae8dd3be10a7b3b10232c-45fc6b2ec289110a942623ba01038575-1776284281-1776282481
 #EXTINF:-1 tvg-id="cartoonnetworkarabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="أطفال", Cartoon Network Arabic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
+#KODIPROP:inputstream.adaptive.license_key=ece7bbc683eb35d1e6b3e32cccbd8fb0:f72bd6ea26e243524d58993b58122313
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://fastlyrwb-live.cdn.intigral-ott.net/TCN/TCN.isml/manifest.mpd
+https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CNA/wv-pr/manifest.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="أطفال", Cartoon Network HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
