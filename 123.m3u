@@ -1,31 +1,76 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 16
-https://mbcvod-enc.edgenextcdn.net/out/v1/116a8e5dc7be42dfbffc577fd397e5ff/a5eda9aa9a5b45aa9bbf00dc133ca83e/c172ad86e318465bb66d213901cf5e48/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 17
-https://mbcvod-enc.edgenextcdn.net/out/v1/a4854fdfe9614afa948a09a4eb3a8748/a9d4ad2b09f54725b563158e432b3c34/0e6f51f98818485e9ee145449c9edfc3/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 18
-https://mbcvod-enc.edgenextcdn.net/out/v1/7ac60f8f56bb4f2fa281ab3cb5220d26/42c9bd7482094b66b91b58b7b1b252f5/ae4c0bb2f1f945788eef4dee4f4b19a5/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 19
-https://mbcvod-enc.edgenextcdn.net/out/v1/7240933bebb44f91a69aa0b48c90d3fe/8d4791cf4ff34ae7a8b4ffd51f37169d/3db5eebfb244433db4418602f91a13b9/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 20
-https://mbcvod-enc.edgenextcdn.net/out/v1/a96d892a52bc4bc88cee2a8fed51c099/01c5d4f53a5c4c05a484163b4d13da96/c384b99d097c4f8895fbc1401d8c1b7d/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 21
-https://mbcvod-enc.edgenextcdn.net/out/v1/11c9298b21c44ed3aab2e45785688cce/fd78e515d31e4f68a88647bfae53ec05/48b060b1bd9e49c29a111eb543c13169/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 22
-https://mbcvod-enc.edgenextcdn.net/out/v1/b538a877740c49af99e98aa0c3979a69/b5755c799e4b40d1b0a6b929f1997949/dd65d435425f49cabffc9d367ae42d31/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 23
-https://mbcvod-enc.edgenextcdn.net/out/v1/b1a2946d30d74dc88ab8e02a0f135b2d/42c9bd7482094b66b91b58b7b1b252f5/ae4c0bb2f1f945788eef4dee4f4b19a5/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 24
-https://mbcvod-enc.edgenextcdn.net/out/v1/fa115899e23c425c8efdbe0f3d89f41a/a3cd035ed2a64d6f8cbcc7a0c57bad91/861dd4009be44d00bad6fd29f88b6fef/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 25
-https://mbcvod-enc.edgenextcdn.net/out/v1/0efca701813b4b3283e5f5440c1b9950/fdc060b45f5d446c883a1750d750a14c/a96ce1c6471843c1bd8537772eb40acf/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 26
-https://mbcvod-enc.edgenextcdn.net/out/v1/a620b30fc741424381e886715df386ee/b5755c799e4b40d1b0a6b929f1997949/dd65d435425f49cabffc9d367ae42d31/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 27
-https://mbcvod-enc.edgenextcdn.net/out/v1/377ce6b30f494345bebb96ae0db94fbf/42c9bd7482094b66b91b58b7b1b252f5/ae4c0bb2f1f945788eef4dee4f4b19a5/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 28
-https://mbcvod-enc.edgenextcdn.net/out/v1/092e27f7fd544150b63d8bd0e68683f6/d43abf63b691474d83424777ee8d7151/d04fd003277d466aaf8cc14f5d189a34/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 29
-https://mbcvod-enc.edgenextcdn.net/out/v1/5122dab028b54718835ac3e127f560dc/a5eda9aa9a5b45aa9bbf00dc133ca83e/c172ad86e318465bb66d213901cf5e48/manifest.m3u8
-#EXTINF:-1 tvg-id="" group-title="", ولد الغلابة الحلقة 30
-https://mbcvod-enc.edgenextcdn.net/out/v1/f78fb7e844d04a6bb48dbcda12cd0ad3/6ec5088383be4f42b7cc9a0b3347ff37/23265444a12b43cbaf9fab5d51d8b3a7/manifest.m3u8
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 1
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=f303f7440cd94d82a930689eff21253a:d1bc13a1529400361eafa4f7304b3416
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/44d4bdfe2f3044809bc355da3b9fd62f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 2
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=732843204fdb47c09d8369f74d7508cc:736f3f02f79d9d49c5435b3071d34219
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/4984ad9b2dcf4e38bbbd3e2a0af0675f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 3
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=198cade2a8d140b48f9eaa9cbca0f1ef:d345023880438ba404997b36fa6d6384
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/7cda7e5358284612afcb45391aa9eb87/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 4
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5f4697facbce4b0599330a9a20e8e3d0:c6da65eb55cd8464815125e45dc6600e
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/a6fdf9c74d804e96af60c5e9755fc9a0/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 5
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=55376cab683944bab30c358d51328b34:95148a1bf6eaf74420ace2336efa14d5
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/fe0906ff5b954996b362cd2393b6eca5/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 6
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=732843204fdb47c09d8369f74d7508cc:736f3f02f79d9d49c5435b3071d34219
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/4984ad9b2dcf4e38bbbd3e2a0af0675f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 7
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=d18aa4752bba40b6a17b17fae7500e1a:ad223e89da24ef68579d872417c4925e
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/4a33948e5de848d5b96e9b3ab4243f12/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 8
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=0be45eddec0a4525aa1ae2f7012ad3b3:2598893e690332887841f0b1004d745b
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/f525e87c82154d318a8c662825ace6ce/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 9
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=854dd51ef92441ad848504b34f173c7d:3706c89bbbd6840ed760503536581c7f
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/cd3e4af4035e4a2caef7e2624050fd24/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 10
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=88908634a61040528f4d54c52ffe1ee7:3d664fb7b7c655602298ed12580f63aa
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/b21dffec1386482b9c3929a7dc61c6a3/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 11
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=4d1228710a944250b9fd1d8d83bdf11a:2748403e6d5208139d3c8d7f7f000965
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/ea20aeb8591b4f229108a9733795a013/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 12
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=2afd20c4c402437caa72d541b4d15cec:ae1553fe1548513ccbbcd8ad1f433a5e
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/98130791666d4ff1821855ff36511fba/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 13
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=928a41f2c61942099f31f50e86f0370d:1c8fea21b4d63f8923e4a7714d4f553c
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/e01d063b0a5146dcbac5f5cc71379a3e/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 14
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=5578b55ccaad467bb580b8ce40e27637:76db6dccf29545a9ca543a9311177445
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbc-aws-ksa.mncdn.com/out/v1/7b0f5035271e4827a92427d939d924c5/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+#EXTINF:-1 tvg-id="" group-title="", وتقابل حبيب الحلقة 15
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=3a97375ccdce4aea95e3c2903445c4f6:0605f65e380be5e1cd59d3dccbaf4848
+#EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
+https://mbcvod-enc.edgenextcdn.net/out/v1/e4919ae919844c9384a4d1a153445f4d/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
