@@ -6,9 +6,9 @@
 https://mbcvod-enc.edgenextcdn.net/out/v1/44d4bdfe2f3044809bc355da3b9fd62f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://shahid.mbc.net/mediaObject/5d398622-ddf4-4148-90a0-f792fb0515d0?height=129&width=230&croppingPoint=&version=1&type=avif" group-title="وتقابل حبيب", الحلقة 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
-#KODIPROP:inputstream.adaptive.license_key=732843204fdb47c09d8369f74d7508cc:736f3f02f79d9d49c5435b3071d34219
+#KODIPROP:inputstream.adaptive.license_key=7cf06bb72d314ed99e6923eb709b023d:12134fb19cc7905c502f76bf3b85cb52
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://mbc-aws-ksa.mncdn.com/out/v1/4984ad9b2dcf4e38bbbd3e2a0af0675f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+https://mbcvod-enc.edgenextcdn.net/out/v1/6dda4f3472f74c3c99a6947e3a6f7c42/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
 #EXTINF:-1 tvg-id="" tvg-logo="https://shahid.mbc.net/mediaObject/69e5bf86-177b-447f-95da-bf1590a08e50?height=129&width=230&croppingPoint=&version=1&type=avif" group-title="وتقابل حبيب", الحلقة 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=198cade2a8d140b48f9eaa9cbca0f1ef:d345023880438ba404997b36fa6d6384
