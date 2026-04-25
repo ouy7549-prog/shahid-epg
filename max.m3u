@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/ouy7549-prog/shahid-epg/refs/heads/main/shahid_final.xml, https://raw.githubusercontent.com/ouy7549-prog/starzplay-epg/refs/heads/main/starzplay_epg.xml"
+#EXTM3U x-tvg-url="https://raw.githubusercontent.com/ouy7549-prog/shahid-epg/refs/heads/main/shahid_final.xml, https://raw.githubusercontent.com/ouy7549-prog/starzplay-epg/refs/heads/main/starzplay_epg.xml, https://raw.githubusercontent.com/ouy7549-prog/starzplay-epg/refs/heads/main/epg_guide.xml"
 #EXTINF:-1 tvg-id="387238" tvg-logo="https://shahid.mbc.net/mediaObject/cee00d24-d0ee-4382-ac72-b2de5dee0331?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 1
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1/15cf99af5de54063fdabfefe66adc075/index.m3u8
 #EXTINF:-1 tvg-id="400917" tvg-logo="https://shahid.mbc.net/mediaObject/39923955-895b-4f40-9374-874b1e314566?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="MBC", MBC 2
@@ -44,27 +44,27 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-bollywood/546eb40d7dcf9a2
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-quran-tv/5ade268066b7ec605d753d973d37e0e5/index.mpd
-#EXTINF:-1 tvg-id="SaudiSunnah(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/a2180922-6de9-45c4-ae40-0411a5c9666f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السنة النبوية
+#EXTINF:-1 tvg-id="92533800205" tvg-logo="https://shahid.mbc.net/mediaObject/a2180922-6de9-45c4-ae40-0411a5c9666f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السنة النبوية
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sunna-tv/4c4285a859e7a6e9772b0c82a8095dc9/index.mpd
-#EXTINF:-1 tvg-id="Saudi1(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/35f57bfa-b83c-4727-8fa0-2c66c0051d4f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السعودية
+#EXTINF:-1 tvg-id="65038376194" tvg-logo="https://shahid.mbc.net/mediaObject/35f57bfa-b83c-4727-8fa0-2c66c0051d4f?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", السعودية
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-saudi-tv/8f1e3b810d2ec5affd6fb29f9cbd59c1/index.mpd
-#EXTINF:-1 tvg-id="SBC(src09).sa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/SBC_TV.png" group-title="قنوات السعودية", SBC
+#EXTINF:-1 tvg-id="73482792077" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3a/SBC_TV.png" group-title="قنوات السعودية", SBC
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=08c932d6ccf444aca2fe88eb96fbb452:4bc6518061883387519414546e8d7998
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-sbc/d369be2a1373b221dafc3f3eb025f2a9/index.mpd
-#EXTINF:-1 tvg-id="946945" tvg-logo="https://shahid.mbc.net/mediaObject/2828a599-b458-433a-ad8e-0c26114c7cf4?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", ذكريات
+#EXTINF:-1 tvg-id="131814439970" tvg-logo="https://shahid.mbc.net/mediaObject/2828a599-b458-433a-ad8e-0c26114c7cf4?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="قنوات السعودية", ذكريات
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e3ce77324a3d4fa2a913b26cc1976052:17774f82a3b9e33ea7a149596acbb20f
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/2cea83644508440266f3f48cbbb9fa36/index.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/7gBj8aS.png" group-title="UAE", Dubai One
+#EXTINF:-1 tvg-id="92533800158" tvg-logo="https://i.imgur.com/7gBj8aS.png" group-title="UAE", Dubai One
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ab96aca699762f6402588eafe321a975:345f243b66226e22c7637b0050930b18
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -74,98 +74,91 @@ https://fastlyrwb-live.cdn.intigral-ott.net/DBO/DBO.isml/manifest.mpd
 #KODIPROP:inputstream.adaptive.license_key=99e6654c4904aa34faccf6f7dc75c7ff:7cc60d98af11e3a180c3048019c62b75
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
 https://ev-fuj-dxb-cdn-edge2.aws.playco.com/live/eds/NatGeo_AbuDhabi_HD/DASH/NatGeo_AbuDhabi_HD.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/HWgw7zn.png" group-title="مصرية", Al Nahar
+#EXTINF:-1 tvg-id="92534824018" tvg-logo="https://i.imgur.com/HWgw7zn.png" group-title="مصرية", Al Nahar
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d2a1a984b3f9587bfe450b4335f5f672:59487c0c415a995e9bd2d384d08871b4
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/NAR/NAR.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/8NK3auW.png" group-title="مصرية", Al Nahar Drama
+#EXTINF:-1 tvg-id="92534311990" tvg-logo="https://i.imgur.com/8NK3auW.png" group-title="مصرية", Al Nahar Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=f6204e4d7aa3538fded62be8c04ad0c7:0d6e44ff40173c6de135c4544d6cb888
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/NAD/NAD.isml/manifest.mpd
-#EXTINF:-1 tvg-id="ONE(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/ON_logo.png/250px-ON_logo.png" group-title="مصرية",ON E
-https://fastly.live.brightcove.com/1843587421941170322/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1ODc0MjE5NDExNzAzMjIifQ.r6YCffy47zkO1b8ng0w4Cxe8QVIsrat2RiuQrGYemyk/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="CBC(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/1280px-CBC_TV.png" group-title="مصرية", CBC
-https://fastly.live.brightcove.com/1843521364865282260/eu-central-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXltc3VjLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjEzNjQ4NjUyODIyNjAifQ.0dAr9XfheySFlNSKyHmeaasEMRIr-eZhJXZkoB1nzu4/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bhq2DLF.png" group-title="مصرية", CBC Drama
+#EXTINF:-1 tvg-id="73482792078" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/CBC_TV.png/1280px-CBC_TV.png" group-title="مصرية", CBC
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=92e25d983c1cc0f0aa7c6981c8a0d9f4:87e328a98f971797feb9b30c4555d82b
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://fastlyrwb-live.cdn.intigral-ott.net/CBC/CBC.isml/manifest.mpd
+#EXTINF:-1 tvg-id="73482792079" tvg-logo="https://i.imgur.com/bhq2DLF.png" group-title="مصرية", CBC Drama
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=bbe52bf1e9dedfb41ec620eee7455c93:7c005ea4fa236bfb9fd5f97336feb637
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/CBD/CBD.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FOO79dS.png" group-title="مصرية", Al Hayat
+#EXTINF:-1 tvg-id="92533800051" tvg-logo="https://i.imgur.com/FOO79dS.png" group-title="مصرية", Al Hayat
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=aad33a029c39e70a58600b54ae5b8dee:24ea749523d73b7a087ba61c16568f4b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/AH1/AH1.isml/manifest.mpd
-#EXTINF:-1 tvg-id="AlhayatTV(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/AlHayah_Drama.png/330px-AlHayah_Drama.png" group-title="مصرية", AL HAYAT Drama
-https://fastly.live.brightcove.com/1843521635140662966/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1MjE2MzUxNDA2NjI5NjYifQ.3f6Ek99wdZf_GSaWnd7hHgbJOSa2zbyqt2cUoxyTHzk/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="DMC(src09).eg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/12/Dmc_TV_Logo.png" group-title="مصرية", DMC
-https://fastly.live.brightcove.com/1843587511277700484/eu-west-1/6057955906001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiZGd4MWQ4LmVncmVzcy5mZDJ2eHIiLCJhY2NvdW50X2lkIjoiNjA1Nzk1NTkwNjAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU3OTU1OTA2MDAxIl0sImp0aSI6IjE4NDM1ODc1MTEyNzc3MDA0ODQifQ.5wPFktewEw9I-uizJ-Kk8GJpxh540V8eWuARmlEnLLM/playlist-hls.m3u8
-#EXTINF:-1 tvg-id="spacetoon" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أطفال", Spacetoon
+#EXTINF:-1 tvg-id="92533800210" tvg-logo="https://shahid.mbc.net/mediaObject/d3c4d7f4-64f6-4dbe-a6b5-8bfed1372966?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أطفال", Spacetoon
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-spacetoon/d8382fb9ab4b2307058f12c7ea90db54/index.m3u8
-#EXTINF:-1 tvg-id="admnmajidtv" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="أطفال", ماجد
+#EXTINF:-1 tvg-id="92533800174" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Majid_TV_logo_2023.svg/250px-Majid_TV_logo_2023.svg.png" group-title="أطفال", ماجد
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=64d581b1c69f62ded3d3085245ee74d9:ff66c471d1fb0e2c3140ee8a62814d8b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/MAJ/MAJ.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/Baraem_new_logo.png" group-title="أطفال", Baraem
-http://supaapp.xyz:8080/2551810583569940/2025565766597215/319685
-#EXTINF:-1 tvg-id="" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/JeemTV_logo.png/250px-JeemTV_logo.png" group-title="أطفال", jeem
-https://games1.elahmad.xyz/tv793_www.elahmad.com_jeem/index.m3u8?token=e3e819b5648235a9d3cae8dd3be10a7b3b10232c-45fc6b2ec289110a942623ba01038575-1776284281-1776282481
-#EXTINF:-1 tvg-id="cartoonnetworkarabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="أطفال", Cartoon Network Arabic
+#EXTINF:-1 tvg-id="65038376202" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Cartoon_Network_Arabic_logo.png" group-title="أطفال", Cartoon Network Arabic
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=ece7bbc683eb35d1e6b3e32cccbd8fb0:f72bd6ea26e243524d58993b58122313
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/bpk-tv/CNA/wv-pr/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="أطفال", Cartoon Network HD
+#EXTINF:-1 tvg-id="65038376203" tvg-logo="https://i.imgur.com/bELGPOS.png" group-title="أطفال", Cartoon Network HD
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8442ea8da91e1d0f392515adc680a4f5:4e9b90ac2c26cb08cd34005e08ecf05c
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/TCN/TCN.isml/manifest.mpd
 #EXTINF:-1 tvg-id="995495" tvg-logo="https://shahid.mbc.net/mediaObject/55f69983-5b4b-47c7-9c25-06ed5ad860a4?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="ثقافية", الثقافية
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thaqafeyyah/28c0d2a20dbf1dc049ce15d3973f494b/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/UvfZlK0.png" group-title="ثقافية", STC Thamnya
+#EXTINF:-1 tvg-id="640396840439" tvg-logo="https://i.imgur.com/UvfZlK0.png" group-title="ثقافية", STC Thamnya
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=8ebed7aab13df195c486446acccb4ccc:a514dba4389dbec5a49cc296f838993a
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT/STCT.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
+#EXTINF:-1 tvg-id="756430376216" tvg-logo="https://i.imgur.com/vxkap0u.png" group-title="Sport", ثمانية 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=714c789c76686632652eefc19f18c3db:962cee49ee9422b44a6c60a7999854ad
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT1/STCT1.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
+#EXTINF:-1 tvg-id="755592232420" tvg-logo="https://i.imgur.com/ULVtvL1.png" group-title="Sport", ثمانية 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=97e293d59ed72db87f12fe7075d8bb4c:c633955e4477ed5acbae68a2b0f1d216
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT2/STCT2.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="Sport", ثمانية 3
+#EXTINF:-1 tvg-id="755593768125" tvg-logo="https://i.imgur.com/1QFcRjG.png" group-title="Sport", ثمانية 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=4bc8e4e871589a45e7c0c7d245c243c6:4c5e8108e0f3cea4b588f5727d3de482
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT3/STCT3.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/FwO6ez6.png" group-title="Sport", ثمانية 4
+#EXTINF:-1 tvg-id="755594792003" tvg-logo="https://i.imgur.com/FwO6ez6.png" group-title="Sport", ثمانية 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=5adc03a03769a3de1add46d210c74ffd:35b9076c39200965414cdf22a21686ee
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STCT4/STCT4.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/WCgcBrk.png" group-title="Sport", STC Sport 1
+#EXTINF:-1 tvg-id="271781928298" tvg-logo="https://i.imgur.com/WCgcBrk.png" group-title="Sport", STC Sport 1
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=47f0ab58f5a81c20b5b69dc494cbe102:1e0719da653c2b4652f0b0bf84d96c74
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STC/STC.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/u8PNY2L.png" group-title="Sport", STC Sport 2
+#EXTINF:-1 tvg-id="133377575964" tvg-logo="https://i.imgur.com/u8PNY2L.png" group-title="Sport", STC Sport 2
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=e74c7d697bd26595b196c6b96e2d4f5b:e288110233737502e8af9184098ab50b
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/JAW1/JAW1.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/YAJoN3z.png" group-title="Sport", STC Sport 3
+#EXTINF:-1 tvg-id="709227560347" tvg-logo="https://i.imgur.com/YAJoN3z.png" group-title="Sport", STC Sport 3
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=1fd615ca2c5353fc5393da466ce31cbc:942822c6e7d3b01dd71bffded7ac0aa8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://fastlyrwb-live.cdn.intigral-ott.net/STC3/STC3.isml/manifest.mpd
-#EXTINF:-1 tvg-id="" tvg-logo="https://i.imgur.com/JZ46pbc.png" group-title="Sport", STC Sport 4
+#EXTINF:-1 tvg-id="711722536156" tvg-logo="https://i.imgur.com/JZ46pbc.png" group-title="Sport", STC Sport 4
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=01065be7ffbb268f2aadf7424b8ee24e:79a541c99e9bb7815e257e4a4ff46dbb
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
