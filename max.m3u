@@ -186,7 +186,7 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-hadath/2ff87ec4c2f3ede35295a2
 https://live-hls-web-aja-gcp.thehlive.com/AJA/index.m3u8
 #EXTINF:-1 tvg-id="bloombergasharqlive" tvg-logo="https://shahid.mbc.net/mediaObject/e2517a24-9ecb-4d64-a547-640c876b326c?height=auto&width=144&croppingPoint=&version=1&type=png" group-title="أخبار", الشرق
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-asharq/10ae30c64e21402c8116a7fb1e5aa789/index.m3u8
-#EXTINF:-1 tvg-id="AlEkhbariya(src09).sa" tvg-logo="https://shahid.mbc.net/mediaObject/80341c5b-6c68-406d-b8a8-673f1481c4e8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", الإخبارية
+#EXTINF:-1 tvg-id="92533800048" tvg-logo="https://shahid.mbc.net/mediaObject/80341c5b-6c68-406d-b8a8-673f1481c4e8?height=auto&width=288&croppingPoint=&version=1&type=png" group-title="أخبار", الإخبارية
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-ekhbaria/297b3ef1cd0633ad9cfba7473a686a06/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://ichef.bbci.co.uk/images/ic/800xn/p0m9xygc.png" group-title="أخبار", BBC عربية
 https://vs-cmaf-pushb-ww.live.cf.md.bbci.co.uk/x=4/i=urn:bbc:pips:service:bbc_arabic_tv/pc_hd_abr_v2.mpd
