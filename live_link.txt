@@ -1,1 +1,1 @@
-https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd?hdnts=st=1777903318~exp=1777903378~acl=/Content/Channel/onetv/DASH/master.mpd*~hmac=c6f7194cc8304a0d64d800c30a9497733f187a6a3de7ea8c40d3bc47b0626e33
+https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd?hdnts=st=1777913132~exp=1777913192~acl=/Content/Channel/onetv/DASH/master.mpd*~hmac=bbcdaecab7d709252bf4ff8429e582a803f3756125d40c997054b060e14a00d4
