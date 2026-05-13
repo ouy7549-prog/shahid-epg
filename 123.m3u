@@ -28,12 +28,12 @@ https://mbcvod-enc.edgenextcdn.net/out/v1/9c735beb087b42d68af6eb01cc5071b9/5455a
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=732843204fdb47c09d8369f74d7508cc:736f3f02f79d9d49c5435b3071d34219
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://mbc-aws-ksa.mncdn.com/out/v1/4984ad9b2dcf4e38bbbd3e2a0af0675f/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+https://mbcvod-enc.edgenextcdn.net/out/v1/ca69e54848f74b8fa7901590b00fb1d2/e7e0c94e9ea845cc89e73d645e520f00/0d4661e8a0ec48d58a138396e9266ccd/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://shahid.mbc.net/mediaObject/451b3f96-78e6-42f3-ad3c-8e076b28920f?height=129&width=230&croppingPoint=&version=1&type=avif" group-title="صاحب السعادة", الحلقة 7
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=d18aa4752bba40b6a17b17fae7500e1a:ad223e89da24ef68579d872417c4925e
 #EXTVLCOPT:http-user-agent=ShahidPlayer/5.10.0 (Linux;Android 11)
-https://mbc-aws-ksa.mncdn.com/out/v1/4a33948e5de848d5b96e9b3ab4243f12/7c201da305b543e0ae55a3673f9aa3a5/840aa317c6f34c8fb0ef18117f07c496/index.mpd
+https://cdxaws-ak.akamaized.net/out/v1/1d1db2fbcab4416dbcc105982df66b11/bd6bdbc86e5a4c0f957eba24f4984676/d501a2678cdb403684bbf42bda03b9e8/manifest.m3u8
 #EXTINF:-1 tvg-id="" tvg-logo="https://shahid.mbc.net/mediaObject/4c7cffa4-83d3-4403-8425-6cfee5cbbd11?height=129&width=230&croppingPoint=&version=1&type=avif" group-title="صاحب السعادة", الحلقة 8
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=0be45eddec0a4525aa1ae2f7012ad3b3:2598893e690332887841f0b1004d745b
