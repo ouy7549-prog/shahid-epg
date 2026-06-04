@@ -1,1 +1,1 @@
-https://dmi-live-a.akamaized.net/Content/Channel/onetv/DASH/master.mpd?hdnts=st=1780586137~exp=1780586197~acl=/Content/Channel/onetv/DASH/master.mpd*~hmac=4ec4b5a87c559be265713d762b90e01c7e46c34a93f04efb744685acbe60a60c
+Scraper Error: HTTPSConnectionPool(host='www.elahmad.org', port=443): Max retries exceeded with url: /tv/live/shahid_shaka.php (Caused by NameResolutionError("HTTPSConnection(host='www.elahmad.org', port=443): Failed to resolve 'www.elahmad.org' ([Errno -2] Name or service not known)"))
